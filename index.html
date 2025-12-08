@@ -1,0 +1,2302 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Ütopya</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&family=Roboto:wght@400;500;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Spinner Start -->
+    <div id="spinner"
+        class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+            <span class="sr-only">Yükleniyor...</span>
+        </div>
+    </div>
+    <!-- Spinner End -->
+
+
+    <!-- Topbar Start -->
+    <div class="container-fluid px-5 d-none border-bottom d-lg-block">
+        <div class="row gx-0 align-items-center">
+            <div class="col-lg-4 text-center text-lg-start mb-lg-0">
+                <div class="d-inline-flex align-items-center" style="height: 45px;">
+                    <a href="#" class="text-muted me-2"> Yardım</a><small> / </small>
+                    <a href="#" class="text-muted mx-2"> Canlı Destek</a><small> / </small>
+                    <a href="contact.html" class="text-muted ms-2"> İletişim</a>
+
+                </div>
+            </div>
+            <div class="col-lg-4 text-center d-flex align-items-center justify-content-center">
+                <small class="text-dark">Bize Ulaşmak için:</small>
+                <a href="#" class="text-muted">0533 153 05 41</a>
+            </div>
+
+            <div class="col-lg-4 text-center text-lg-end">
+                <div class="d-inline-flex align-items-center" style="height: 45px;">
+                    <div class="dropdown">
+                        <a href="#" class="dropdown-toggle text-muted me-2" data-bs-toggle="dropdown"><small>
+                                USD</small></a>
+                        <div class="dropdown-menu rounded">
+                            <a href="#" class="dropdown-item"> Euro</a>
+                            <a href="#" class="dropdown-item"> Dolar</a>
+                        </div>
+                    </div>
+                    <div class="dropdown">
+                        <a href="#" class="dropdown-toggle text-muted mx-2" data-bs-toggle="dropdown"><small>
+                                English</small></a>
+                        <div class="dropdown-menu rounded">
+                            <a href="#" class="dropdown-item"> İngilizce</a>
+                            <a href="#" class="dropdown-item"> Türkçe</a>
+                            <a href="#" class="dropdown-item"> İspanyolca</a>
+                            <a href="#" class="dropdown-item"> İtalyanca</a>
+                        </div>
+                    </div>
+                    <div class="dropdown">
+                        <a href="#" class="dropdown-toggle text-muted ms-2" data-bs-toggle="dropdown"><small><i
+                                    class="fa fa-home me-2"></i> Menü</small></a>
+                        <div class="dropdown-menu rounded">
+                            <a href="#" class="dropdown-item"> Giriş</a>
+                            <a href="#" class="dropdown-item"> İstek listesi</a>
+                            <a href="#" class="dropdown-item"> Sepetim</a>
+                            <a href="#" class="dropdown-item"> Bildirimler</a>
+                            <a href="#" class="dropdown-item"> Hesap ayarları</a>
+                            <a href="#" class="dropdown-item"> Hesabım</a>
+                            <a href="admin-login.html" class="dropdown-item"> Admin Panel</a>
+                            <a href="duyurular.html" class="dropdown-item"> Duyurular</a>
+                            <a href="misyon.html" class="dropdown-item"> Misyon-Vizyon</a>
+                            <a href="birimlerimiz.html" class="dropdown-item"> Birimlerimiz</a>
+                            <a href="oneri.html" class="dropdown-item"> Öneri Ve Şikayet</a>
+                            <a href="#" class="dropdown-item"> Çıkış yap</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid px-5 py-4 d-none d-lg-block">
+        <div class="row gx-0 align-items-center text-center">
+            <div class="col-md-4 col-lg-3 text-center text-lg-start">
+                <div class="d-inline-flex align-items-center">
+                    <a href="" class="navbar-brand p-0">
+                        <h1 class="display-5 text-primary m-0"><i
+                                class="fas fa-shopping-bag text-secondary me-2"></i>Ütopya</h1>
+                        <!-- <img src="img/logo.png" alt="Logo"> -->
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-4 col-lg-6 text-center">
+                <div class="position-relative ps-4">
+                    <div class="d-flex border rounded-pill">
+                        <input class="form-control border-0 rounded-pill w-100 py-3" type="text"
+                            data-bs-target="#dropdownToggle123" placeholder="Ne Arıyorsunuz?">
+                        <select class="form-select text-dark border-0 border-start rounded-0 p-3" style="width: 200px;">
+                            <option value="All Category">Tüm kategoriler</option>
+                            <option value="Pest Control-2">Kulaklıklar </option>
+                            <option value="Pest Control-3">Kamera </option>
+                            <option value="Pest Control-4">Telefonlar </option>
+                            <option value="Pest Control-5">Klavye </option>
+                        </select>
+                        <button type="button" class="btn btn-primary rounded-pill py-3 px-5" style="border: 0;"><i
+                                class="fas fa-search"></i></button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-lg-3 text-center text-lg-end">
+                <div class="d-inline-flex align-items-center">
+                    <a href="#" class="text-muted d-flex align-items-center justify-content-center me-3"><span
+                            class="rounded-circle btn-md-square border"><i class="fas fa-random"></i></i></a>
+                    <a href="#" class="text-muted d-flex align-items-center justify-content-center me-3"><span
+                            class="rounded-circle btn-md-square border"><i class="fas fa-heart"></i></a>
+                    <a href="#" class="text-muted d-flex align-items-center justify-content-center"><span
+                            class="rounded-circle btn-md-square border"><i class="fas fa-shopping-cart"></i></span>
+                        <span class="text-dark ms-2">$0.00</span></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Topbar End -->
+
+    <!-- Navbar & Hero Start -->
+    <div class="container-fluid nav-bar p-0">
+        <div class="row gx-0 bg-primary px-5 align-items-center">
+            <div class="col-lg-3 d-none d-lg-block">
+                <nav class="navbar navbar-light position-relative" style="width: 250px;">
+                    <button class="navbar-toggler border-0 fs-4 w-100 px-0 text-start" type="button"
+                        data-bs-toggle="collapse" data-bs-target="#allCat">
+                        <h4 class="m-0"><i class="fa fa-bars me-2"></i>Tüm Kategoriler</h4>
+                    </button>
+                    <div class="collapse navbar-collapse rounded-bottom" id="allCat">
+                        <div class="navbar-nav ms-auto py-0">
+                            <ul class="list-unstyled categories-bars">
+                                <li>
+                                    <div class="categories-bars-item">
+                                        <a href="#">Kulaklık&Klavye</a>
+                                        <span>(3)</span>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="categories-bars-item">
+                                        <a href="#">Elektronik </a>
+                                        <span>(5)</span>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="categories-bars-item">
+                                        <a href="#">Masaüstü ve Laptoplar</a>
+                                        <span>(2)</span>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="categories-bars-item">
+                                        <a href="#">Tablet</a>
+                                        <span>(8)</span>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="categories-bars-item">
+                                        <a href="#">Akıllı Telefon ve Televizyon TV</a>
+                                        <span>(5)</span>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+            <div class="col-12 col-lg-9">
+                <nav class="navbar navbar-expand-lg navbar-light bg-primary ">
+                    <a href="" class="navbar-brand d-block d-lg-none">
+                        <h1 class="display-5 text-secondary m-0"><i
+                                class="fas fa-shopping-bag text-white me-2"></i>ElektroX</h1>
+                        <!-- <img src="img/logo.png" alt="Logo"> -->
+                    </a>
+                    <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarCollapse">
+                        <span class="fa fa-bars fa-1x"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarCollapse">
+                        <div class="navbar-nav ms-auto py-0">
+                            <a href="index.html" class="nav-item nav-link active">Ana Sayfa</a>
+                            <a href="shop.html" class="nav-item nav-link">Ürünlerimiz</a>
+                            
+                            <div class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Sayfalar</a>
+                                <div class="dropdown-menu m-0">
+                                    
+                                    <a href="cart.html" class="dropdown-item">Sepet</a>
+                                    <a href="cheackout.html" class="dropdown-item">Ödeme</a>
+                                    
+                                </div>
+                            </div>
+                            <a href="contact.html" class="nav-item nav-link me-2">İletişim!</a>
+                            <div class="nav-item dropdown d-block d-lg-none mb-3">
+                                <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Tüm kategoriler</a>
+                                <div class="dropdown-menu m-0">
+                                    <ul class="list-unstyled categories-bars">
+                                        <li>
+                                            <div class="categories-bars-item">r
+                                                <a href="#">Kulaklık&klavye</a>
+                                                <span>(3)</span>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="categories-bars-item">
+                                                <a href="#">Elektronik</a>
+                                                <span>(5)</span>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="categories-bars-item">
+                                                <a href="#">Laptop & Masaüstü</a>
+                                                <span>(2)</span>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="categories-bars-item">
+                                                <a href="#">Tablet</a>
+                                                <span>(8)</span>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="categories-bars-item">
+                                                <a href="#">Akıllı TV & Telefon</a>
+                                                <span>(5)</span>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="" class="btn btn-secondary rounded-pill py-2 px-4 px-lg-3 mb-3 mb-md-3 mb-lg-0"><i
+                                class="fa fa-mobile-alt me-2"></i> +0533 153 05 41</a>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </div>
+    <!-- Navbar & Hero End -->
+
+    <!-- Carousel Start -->
+    <div class="container-fluid carousel bg-light px-0">
+        <div class="row g-0 justify-content-end">
+            <div class="col-12 col-lg-7 col-xl-9">
+                <div class="header-carousel owl-carousel bg-light py-5">
+                    <div class="row g-0 header-carousel-item align-items-center">
+                        <div class="col-xl-6 carousel-img wow fadeInLeft" data-wow-delay="0.1s">
+                            <img src="img/carousel-1.png" class="img-fluid w-100" alt="Image">
+                        </div>
+                        <div class="col-xl-6 carousel-content p-4">
+                            <h4 class="text-uppercase fw-bold mb-4 wow fadeInRight" data-wow-delay="0.1s"
+                                style="letter-spacing: 3px;">4000 Lira İndirim!</h4>
+                            <h1 class="display-3 text-capitalize mb-4 wow fadeInRight" data-wow-delay="0.3s">Seçili Laptop, Masaüstü ve Akıllı saatlerde indirim!</h1>
+                            <p class="text-dark wow fadeInRight" data-wow-delay="0.5s">Şartlar ve koşullar geçerlidir</p>
+                            <a class="btn btn-primary rounded-pill py-3 px-5 wow fadeInRight" data-wow-delay="0.7s"
+                                href="#">Şimdi Satın Al!</a>
+                        </div>
+                    </div>
+                    <div class="row g-0 header-carousel-item align-items-center">
+                        <div class="col-xl-6 carousel-img wow fadeInLeft" data-wow-delay="0.1s">
+                            <img src="img/carousel-2.png" class="img-fluid w-100" alt="Image">
+                        </div>
+                        <div class="col-xl-6 carousel-content p-4">
+                            <h4 class="text-uppercase fw-bold mb-4 wow fadeInRight" data-wow-delay="0.1s"
+                                style="letter-spacing: 3px;">2000 Lira İndirim!</h4>
+                            <h1 class="display-3 text-capitalize mb-4 wow fadeInRight" data-wow-delay="0.3s">Seçili Laptop, Masaüstü ve Akıllı saatlerde</h1>
+                            <p class="text-dark wow fadeInRight" data-wow-delay="0.5s">Şartlar ve koşullar geçerlidir</p>
+                            <a class="btn btn-primary rounded-pill py-3 px-5 wow fadeInRight" data-wow-delay="0.7s"
+                                href="#">Şimdi Satın Al!</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-5 col-xl-3 wow fadeInRight" data-wow-delay="0.1s">
+                <div class="carousel-header-banner h-100">
+                    <img src="img/header-img.jpg" class="img-fluid w-100 h-100" style="object-fit: cover;" alt="Image">
+                    <div class="carousel-banner-offer">
+                        <p class="bg-primary text-white rounded fs-5 py-2 px-4 mb-0 me-3">2000 İndrim!</p>
+                        <p class="text-primary fs-5 fw-bold mb-0">Bu fırsat kaçmaz!</p>
+                    </div>
+                    <div class="carousel-banner">
+                        <div class="carousel-banner-content text-center p-4">
+                            <a href="#" class="d-block mb-2">iPad</a>
+                            <a href="#" class="d-block text-white fs-3">Apple iPad Mini <br> G2356</a>
+                            <del class="me-2 text-white fs-5">27000TL</del>
+                            <span class="text-primary fs-5">25000TL</span>
+                        </div>
+                        <a href="#" class="btn btn-primary rounded-pill py-2 px-4"><i
+                                class="fas fa-shopping-cart me-2"></i> Sepete Ekle</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Carousel End -->
+
+    <!-- Searvices Start -->
+    <div class="container-fluid px-0">
+        <div class="row g-0">
+            <div class="col-6 col-md-4 col-lg-2 border-start border-end wow fadeInUp" data-wow-delay="0.1s">
+                <div class="p-4">
+                    <div class="d-inline-flex align-items-center">
+                        <i class="fa fa-sync-alt fa-2x text-primary"></i>
+                        <div class="ms-4">
+                            <h6 class="text-uppercase mb-2">İade Garantili</h6>
+                            <p class="mb-0">30 gün garanti!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 col-md-4 col-lg-2 border-end wow fadeInUp" data-wow-delay="0.2s">
+                <div class="p-4">
+                    <div class="d-flex align-items-center">
+                        <i class="fab fa-telegram-plane fa-2x text-primary"></i>
+                        <div class="ms-4">
+                            <h6 class="text-uppercase mb-2">Kargo bedava</h6>
+                            <p class="mb-0">Tüm ürünlerde kargo bedava!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 col-md-4 col-lg-2 border-end wow fadeInUp" data-wow-delay="0.3s">
+                <div class="p-4">
+                    <div class="d-flex align-items-center">
+                        <i class="fas fa-life-ring fa-2x text-primary"></i>
+                        <div class="ms-4">
+                            <h6 class="text-uppercase mb-2">7/24 Destek</h6>
+                            <p class="mb-0">24 Saat Aralıksız Online Destek</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 col-md-4 col-lg-2 border-end wow fadeInUp" data-wow-delay="0.4s">
+                <div class="p-4">
+                    <div class="d-flex align-items-center">
+                        <i class="fas fa-credit-card fa-2x text-primary"></i>
+                        <div class="ms-4">
+                            <h6 class="text-uppercase mb-2">Hediye Kartı kazan!</h6>
+                            <p class="mb-0">5000 Lira ve Üstü Alışverişinde Hediye Kartı Kazan!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 col-md-4 col-lg-2 border-end wow fadeInUp" data-wow-delay="0.5s">
+                <div class="p-4">
+                    <div class="d-flex align-items-center">
+                        <i class="fas fa-lock fa-2x text-primary"></i>
+                        <div class="ms-4">
+                            <h6 class="text-uppercase mb-2">Güvenli Ödeme</h6>
+                            <p class="mb-0">Güvenliğine Önem veriyoruz!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 col-md-4 col-lg-2 border-end wow fadeInUp" data-wow-delay="0.6s">
+                <div class="p-4">
+                    <div class="d-flex align-items-center">
+                        <i class="fas fa-blog fa-2x text-primary"></i>
+                        <div class="ms-4">
+                            <h6 class="text-uppercase mb-2">Online Servis</h6>
+                            <p class="mb-0">30 günlük bedava iade garantili!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Searvices End -->
+
+    <!-- Products Offer Start -->
+    <div class="container-fluid bg-light py-5">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-lg-6 wow fadeInLeft" data-wow-delay="0.2s">
+                    <a href="#" class="d-flex align-items-center justify-content-between border bg-white rounded p-4">
+                        <div>
+                            <p class="text-muted mb-3">En iyi kamerayı satın al!</p>
+                            <h3 class="text-primary">Kamera</h3>
+                            <h1 class="display-3 text-secondary mb-0">40% <span
+                                    class="text-primary fw-normal">İndirim</span></h1>
+                        </div>
+                        <img src="img/product-1.png" class="img-fluid" alt="">
+                    </a>
+                </div>
+                <div class="col-lg-6 wow fadeInRight" data-wow-delay="0.3s">
+                    <a href="#" class="d-flex align-items-center justify-content-between border bg-white rounded p-4">
+                        <div>
+                            <p class="text-muted mb-3">En iyi saatler!</p>
+                            <h3 class="text-primary">Akıllı Saat</h3>
+                            <h1 class="display-3 text-secondary mb-0">20% <span
+                                    class="text-primary fw-normal">İndirim</span></h1>
+                        </div>
+                        <img src="img/product-2.png" class="img-fluid" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Products Offer End -->
+
+
+    <!-- Our Products Start -->
+    <div class="container-fluid product py-5">
+        <div class="container py-5">
+            <div class="tab-class">
+                <div class="row g-4">
+                    <div class="col-lg-4 text-start wow fadeInLeft" data-wow-delay="0.1s">
+                        <h1>Ürünlerimiz</h1>
+                    </div>
+                    <div class="col-lg-8 text-end wow fadeInRight" data-wow-delay="0.1s">
+                        <ul class="nav nav-pills d-inline-flex text-center mb-5">
+                            <li class="nav-item mb-4">
+                                <a class="d-flex mx-2 py-2 bg-light rounded-pill active" data-bs-toggle="pill"
+                                    href="#tab-1">
+                                    <span class="text-dark" style="width: 130px;">Tüm Ürünler</span>
+                                </a>
+                            </li>
+                            <li class="nav-item mb-4">
+                                <a class="d-flex py-2 mx-2 bg-light rounded-pill" data-bs-toggle="pill" href="#tab-2">
+                                    <span class="text-dark" style="width: 130px;">Yeni</span>
+                                </a>
+                            </li>
+                            <li class="nav-item mb-4">
+                                <a class="d-flex mx-2 py-2 bg-light rounded-pill" data-bs-toggle="pill" href="#tab-3">
+                                    <span class="text-dark" style="width: 130px;">Yüksek Tıklama</span>
+                                </a>
+                            </li>
+                            <li class="nav-item mb-4">
+                                <a class="d-flex mx-2 py-2 bg-light rounded-pill" data-bs-toggle="pill" href="#tab-4">
+                                    <span class="text-dark" style="width: 130px;">Çok satan</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="tab-content">
+                    <div id="tab-1" class="tab-pane fade show p-0 active">
+                        <div class="row g-4">
+                            <div class="col-md-6 col-lg-4 col-xl-3">
+                                <div class="product-item rounded wow fadeInUp" data-wow-delay="0.1s">
+                                    <div class="product-item-inner border rounded">
+                                        <div class="product-item-inner-item">
+                                            <img src="img/product-3.png" class="img-fluid w-100 rounded-top" alt="">
+                                            <div class="product-new">Yeni</div>
+                                            <div class="product-details">
+                                                <a href="#"><i class="fa fa-eye fa-1x"></i></a>
+                                            </div>
+                                        </div>
+                                        <div class="text-center rounded-bottom p-4">
+                                            <a href="#" class="d-block mb-2">Akıllı Telefon</a>
+                                            <a href="single.html" class="d-block h4">SAMSUNG Galaxy S25 FE 8/256 GB Akıllı Telefon Beyaz
+ <br> </a>
+                                            <del class="me-2 fs-5">40.000TL</del>
+                                            <span class="text-primary fs-5">36.000TL</span>
+                                        </div>
+                                    </div>
+                                    <div
+                                        class="product-item-add border border-top-0 rounded-bottom text-center p-4 pt-0">
+                                        <a href="#"
+                                            class="btn btn-primary border-secondary rounded-pill py-2 px-4 mb-4"><i
+                                                class="fas fa-shopping-cart me-2"></i> Sepete Ekle</a>
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <div class="d-flex">
+                                                <i class="fas fa-star text-primary"></i>
+                                                <i class="fas fa-star text-primary"></i>
+                                                <i class="fas fa-star text-primary"></i>
+                                                <i class="fas fa-star text-primary"></i>
+                                                <i class="fas fa-star"></i>
+                                            </div>
+                                            <div class="d-flex">
+                                                <a href="#"
+                                                    class="text-primary d-flex align-items-center justify-content-center me-3"><span
+                                                        class="rounded-circle btn-sm-square border"><i
+                                                            class="fas fa-random"></i></i></a>
+                                                <a href="#"
+                                                    class="text-primary d-flex align-items-center justify-content-center me-0"><span
+                                                        class="rounded-circle btn-sm-square border"><i
+                                                            class="fas fa-heart"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-4 col-xl-3">
+                                <div class="product-item rounded wow fadeInUp" data-wow-delay="0.3s">
+                                    <div class="product-item-inner border rounded">
+                                        <div class="product-item-inner-item">
+                                            <img src="img/product-4.png" class="img-fluid w-100 rounded-top"
+                                                alt="Image">
+                                            <div class="product-sale">İndirim</div>
+                                            <div class="product-details">
+                                                <a href="#"><i class="fa fa-eye fa-1x"></i></a>
+                                            </div>
+                                        </div>
+                                        <div class="text-center rounded-bottom p-4">
+                                            <a href="#" class="d-block mb-2">Kamera</a>
+                                            <a href="#" class="d-block h4">Canon Kamera <br> G2356</a>
+                                            <del class="me-2 fs-5">20000TL</del>
+                                            <span class="text-primary fs-5">17000TL</span>
+                                        </div>
+                                    </div>
+                                    <div
+                                        class="product-item-add border border-top-0 rounded-bottom  text-center p-4 pt-0">
+                                        <a href="#"
+                                            class="btn btn-primary border-secondary rounded-pill py-2 px-4 mb-4"><i
+                                                class="fas fa-shopping-cart me-2"></i> Sepete Ekle</a>
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <div class="d-flex">
+                                                <i class="fas fa-star text-primary"></i>
+                                                <i class="fas fa-star text-primary"></i>
+                                                <i class="fas fa-star text-primary"></i>
+                                                <i class="fas fa-star text-primary"></i>
+                                                <i class="fas fa-star"></i>
+                                            </div>
+                                            <div class="d-flex">
+                                                <a href="#"
+                                                    class="text-primary d-flex align-items-center justify-content-center me-3"><span
+                                                        class="rounded-circle btn-sm-square border"><i
+                                                            class="fas fa-random"></i></i></a>
+                                                <a href="#"
+                                                    class="text-primary d-flex align-items-center justify-content-center me-0"><span
+                                                        class="rounded-circle btn-sm-square border"><i
+                                                            class="fas fa-heart"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-4 col-xl-3">
+                                <div class="product-item rounded wow fadeInUp" data-wow-delay="0.5s">
+                                    <div class="product-item-inner border rounded">
+                                        <div class="product-item-inner-item">
+                                            <img src="img/product-5.png" class="img-fluid w-100 rounded-top"
+                                                alt="Image">
+                                            <div class="product-details">
+                                                <a href="#"><i class="fa fa-eye fa-1x"></i></a>
+                                            </div>
+                                        </div>
+                                        <div class="text-center rounded-bottom p-4">
+                                            <a href="#" class="d-block mb-2">Lens</a>
+                                            <a href="#" class="d-block h4">Canon EF 50mm f/1.8 STM <br> </a>
+                                            <del class="me-2 fs-5">17000TL</del>
+                                            <span class="text-primary fs-5">15000TL</span>
+                                        </div>
+                                    </div>
+                                    <div
+                                        class="product-item-add border border-top-0 rounded-bottom  text-center p-4 pt-0">
+                                        <a href="#"
+                                            class="btn btn-primary border-secondary rounded-pill py-2 px-4 mb-4"><i
+                                                class="fas fa-shopping-cart me-2"></i> Sepete Ekle</a>
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <div class="d-flex">
+                                                <i class="fas fa-star text-primary"></i>
+                                                <i class="fas fa-star text-primary"></i>
+                                                <i class="fas fa-star text-primary"></i>
+                                                <i class="fas fa-star text-primary"></i>
+                                                <i class="fas fa-star"></i>
+                                            </div>
+                                            <div class="d-flex">
+                                                <a href="#"
+                                                    class="text-primary d-flex align-items-center justify-content-center me-3"><span
+                                                        class="rounded-circle btn-sm-square border"><i
+                                                            class="fas fa-random"></i></i></a>
+                                                <a href="#"
+                                                    class="text-primary d-flex align-items-center justify-content-center me-0"><span
+                                                        class="rounded-circle btn-sm-square border"><i
+                                                            class="fas fa-heart"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-4 col-xl-3">
+                                <div class="product-item rounded wow fadeInUp" data-wow-delay="0.7s">
+                                    <div class="product-item-inner border rounded">
+                                        <div class="product-item-inner-item">
+                                            <img src="img/product-6.png" class="img-fluid w-100 rounded-top"
+                                                alt="Image">
+                                            <div class="product-new">Yeni</div>
+                                            <div class="product-details">
+                                                <a href="#"><i class="fa fa-eye fa-1x"></i></a>
+                                            </div>
+                                        </div>
+                                        <div class="text-center rounded-bottom p-4">
+                                            <a href="#" class="d-block mb-2">Masaüstü Kamera</a>
+                                            <a href="#" class="d-block h4">Yi Home Masaüstü Kamera <br> </a>
+                                            <del class="me-2 fs-5">3000TL</del>
+                                            <span class="text-primary fs-5">2000TL</span>
+                                        </div>
+                                    </div>
+                                    <div
+                                        class="product-item-add border border-top-0 rounded-bottom  text-center p-4 pt-0">
+                                        <a href="#"
+                                            class="btn btn-primary border-secondary rounded-pill py-2 px-4 mb-4"><i
+                                                class="fas fa-shopping-cart me-2"></i> Sepete Ekle</a>
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <div class="d-flex">
+                                                <i class="fas fa-star text-primary"></i>
+                                                <i class="fas fa-star text-primary"></i>
+                                                <i class="fas fa-star text-primary"></i>
+                                                <i class="fas fa-star text-primary"></i>
+                                                <i class="fas fa-star"></i>
+                                            </div>
+                                            <div class="d-flex">
+                                                <a href="#"
+                                                    class="text-primary d-flex align-items-center justify-content-center me-3"><span
+                                                        class="rounded-circle btn-sm-square border"><i
+                                                            class="fas fa-random"></i></i></a>
+                                                <a href="#"
+                                                    class="text-primary d-flex align-items-center justify-content-center me-0"><span
+                                                        class="rounded-circle btn-sm-square border"><i
+                                                            class="fas fa-heart"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-4 col-xl-3">
+                                <div class="product-item rounded wow fadeInUp" data-wow-delay="0.1s">
+                                    <div class="product-item-inner border rounded">
+                                        <div class="product-item-inner-item">
+                                            <img src="img/product-7.png" class="img-fluid w-100 rounded-top"
+                                                alt="Image">
+                                            <div class="product-sale">İndirimde</div>
+                                            <div class="product-details">
+                                                <a href="#"><i class="fa fa-eye fa-1x"></i></a>
+                                            </div>
+                                        </div>
+                                        <div class="text-center rounded-bottom p-4">
+                                            <a href="#" class="d-block mb-2">Kamera</a>
+                                            <a href="#" class="d-block h4">Polaroid Now Gen 2 <br> </a>
+                                            <del class="me-2 fs-5">30000TL</del>
+                                            <span class="text-primary fs-5">25000TL</span>
+                                        </div>
+                                    </div>
+                                    <div
+                                        class="product-item-add border border-top-0 rounded-bottom  text-center p-4 pt-0">
+                                        <a href="#"
+                                            class="btn btn-primary border-secondary rounded-pill py-2 px-4 mb-4"><i
+                                                class="fas fa-shopping-cart me-2"></i> Sepete Ekle</a>
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <div class="d-flex">
+                                                <i class="fas fa-star text-primary"></i>
+                                                <i class="fas fa-star text-primary"></i>
+                                                <i class="fas fa-star text-primary"></i>
+                                                <i class="fas fa-star text-primary"></i>
+                                                <i class="fas fa-star"></i>
+                                            </div>
+                                            <div class="d-flex">
+                                                <a href="#"
+                                                    class="text-primary d-flex align-items-center justify-content-center me-3"><span
+                                                        class="rounded-circle btn-sm-square border"><i
+                                                            class="fas fa-random"></i></i></a>
+                                                <a href="#"
+                                                    class="text-primary d-flex align-items-center justify-content-center me-0"><span
+                                                        class="rounded-circle btn-sm-square border"><i
+                                                            class="fas fa-heart"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-4 col-xl-3">
+                                <div class="product-item rounded wow fadeInUp" data-wow-delay="0.3s">
+                                    <div class="product-item-inner border rounded">
+                                        <div class="product-item-inner-item">
+                                            <img src="img/product-8.png" class="img-fluid w-100 rounded-top"
+                                                alt="Image">
+                                            <div class="product-details">
+                                                <a href="#"><i class="fa fa-eye fa-1x"></i></a>
+                                            </div>
+                                        </div>
+                                        <div class="text-center rounded-bottom p-4">
+                                            <a href="#" class="d-block mb-2">Bluetooth Kulaklık</a>
+                                            <a href="#" class="d-block h4">Sony WH1000XM2B Bluetooth Kulaklık <br> G2356</a>
+                                            <del class="me-2 fs-5">3000TL</del>
+                                            <span class="text-primary fs-5">2000TL</span>
+                                        </div>
+                                    </div>
+                                    <div
+                                        class="product-item-add border border-top-0 rounded-bottom  text-center p-4 pt-0">
+                                        <a href="#"
+                                            class="btn btn-primary border-secondary rounded-pill py-2 px-4 mb-4"><i
+                                                class="fas fa-shopping-cart me-2"></i> Sepete Ekle</a>
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <div class="d-flex">
+                                                <i class="fas fa-star text-primary"></i>
+                                                <i class="fas fa-star text-primary"></i>
+                                                <i class="fas fa-star text-primary"></i>
+                                                <i class="fas fa-star text-primary"></i>
+                                                <i class="fas fa-star"></i>
+                                            </div>
+                                            <div class="d-flex">
+                                                <a href="#"
+                                                    class="text-primary d-flex align-items-center justify-content-center me-3"><span
+                                                        class="rounded-circle btn-sm-square border"><i
+                                                            class="fas fa-random"></i></i></a>
+                                                <a href="#"
+                                                    class="text-primary d-flex align-items-center justify-content-center me-0"><span
+                                                        class="rounded-circle btn-sm-square border"><i
+                                                            class="fas fa-heart"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-4 col-xl-3">
+                                <div class="product-item rounded wow fadeInUp" data-wow-delay="0.5s">
+                                    <div class="product-item-inner border rounded">
+                                        <div class="product-item-inner-item">
+                                            <img src="img/product-9.png" class="img-fluid w-100 rounded-top"
+                                                alt="Image">
+                                            <div class="product-new">New</div>
+                                            <div class="product-details">
+                                                <a href="#"><i class="fa fa-eye fa-1x"></i></a>
+                                            </div>
+                                        </div>
+                                        <div class="text-center rounded-bottom p-4">
+                                            <a href="#" class="d-block mb-2">Klavye</a>
+                                            <a href="#" class="d-block h4">Razer Blackwidow V3 TKL Green Switch <br> </a>
+                                            <del class="me-2 fs-5">6000TL</del>
+                                            <span class="text-primary fs-5">5000TL</span>
+                                        </div>
+                                    </div>
+                                    <div
+                                        class="product-item-add border border-top-0 rounded-bottom  text-center p-4 pt-0">
+                                        <a href="#"
+                                            class="btn btn-primary border-secondary rounded-pill py-2 px-4 mb-4"><i
+                                                class="fas fa-shopping-cart me-2"></i> Sepete Ekle</a>
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <div class="d-flex">
+                                                <i class="fas fa-star text-primary"></i>
+                                                <i class="fas fa-star text-primary"></i>
+                                                <i class="fas fa-star text-primary"></i>
+                                                <i class="fas fa-star text-primary"></i>
+                                                <i class="fas fa-star"></i>
+                                            </div>
+                                            <div class="d-flex">
+                                                <a href="#"
+                                                    class="text-primary d-flex align-items-center justify-content-center me-3"><span
+                                                        class="rounded-circle btn-sm-square border"><i
+                                                            class="fas fa-random"></i></i></a>
+                                                <a href="#"
+                                                    class="text-primary d-flex align-items-center justify-content-center me-0"><span
+                                                        class="rounded-circle btn-sm-square border"><i
+                                                            class="fas fa-heart"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-4 col-xl-3">
+                                <div class="product-item rounded wow fadeInUp" data-wow-delay="0.7s">
+                                    <div class="product-item-inner border rounded">
+                                        <div class="product-item-inner-item">
+                                            <img src="img/product-10.png" class="img-fluid w-100 rounded-top" alt="">
+                                            <div class="product-sale">İndirim</div>
+                                            <div class="product-details">
+                                                <a href="#"><i class="fa fa-eye fa-1x"></i></a>
+                                            </div>
+                                        </div>
+                                        <div class="text-center rounded-bottom p-4">
+                                            <a href="#" class="d-block mb-2">Bluetooth Kulaklık</a>
+                                            <a href="#" class="d-block h4">JBL Tune T770bt Mavi Anc Wireless Bluetooth Kulak Üstü Kulaklık <br> G2356</a>
+                                            <del class="me-2 fs-5">7000TL</del>
+                                            <span class="text-primary fs-5">6200TL</span>
+                                        </div>
+                                    </div>
+                                    <div
+                                        class="product-item-add border border-top-0 rounded-bottom  text-center p-4 pt-0">
+                                        <a href="#"
+                                            class="btn btn-primary border-secondary rounded-pill py-2 px-4 mb-4"><i
+                                                class="fas fa-shopping-cart me-2"></i> Sepete Ekle</a>
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <div class="d-flex">
+                                                <i class="fas fa-star text-primary"></i>
+                                                <i class="fas fa-star text-primary"></i>
+                                                <i class="fas fa-star text-primary"></i>
+                                                <i class="fas fa-star text-primary"></i>
+                                                <i class="fas fa-star"></i>
+                                            </div>
+                                            <div class="d-flex">
+                                                <a href="#"
+                                                    class="text-primary d-flex align-items-center justify-content-center me-3"><span
+                                                        class="rounded-circle btn-sm-square border"><i
+                                                            class="fas fa-random"></i></i></a>
+                                                <a href="#"
+                                                    class="text-primary d-flex align-items-center justify-content-center me-0"><span
+                                                        class="rounded-circle btn-sm-square border"><i
+                                                            class="fas fa-heart"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="tab-2" class="tab-pane fade show p-0">
+                        <div class="row g-4">
+                            <div class="col-md-6 col-lg-4 col-xl-3">
+                                <div class="product-item rounded wow fadeInUp" data-wow-delay="0.1s">
+                                    <div class="product-item-inner border rounded">
+                                        <div class="product-item-inner-item">
+                                            <img src="img/product-3.png" class="img-fluid rounded-top" alt="">
+                                            <div class="product-new">Yeni</div>
+                                            <div class="product-details">
+                                                <a href="#"><i class="fa fa-eye fa-1x"></i></a>
+                                            </div>
+                                        </div>
+                                        <div class="text-center rounded-bottom p-4">
+                                            <a href="#" class="d-block mb-2">Akıllı Telefon</a>
+                                            <a href="#" class="d-block h4">SAMSUNG Galaxy S25 FE 8/256 GB Akıllı Telefon Beyaz
+ <br> </a>
+                                            <del class="me-2 fs-5">40.000TL</del>
+                                            <span class="text-primary fs-5">36.000TL</span>
+                                        </div>
+                                    </div>
+                                    <div
+                                        class="product-item-add border border-top-0 rounded-bottom  text-center p-4 pt-0">
+                                        <a href="#"
+                                            class="btn btn-primary border-secondary rounded-pill py-2 px-4 mb-4"><i
+                                                class="fas fa-shopping-cart me-2"></i> Sepete Ekle</a>
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <div class="d-flex">
+                                                <i class="fas fa-star text-primary"></i>
+                                                <i class="fas fa-star text-primary"></i>
+                                                <i class="fas fa-star text-primary"></i>
+                                                <i class="fas fa-star text-primary"></i>
+                                                <i class="fas fa-star"></i>
+                                            </div>
+                                            <div class="d-flex">
+                                                <a href="#"
+                                                    class="text-primary d-flex align-items-center justify-content-center me-3"><span
+                                                        class="rounded-circle btn-sm-square border"><i
+                                                            class="fas fa-random"></i></i></a>
+                                                <a href="#"
+                                                    class="text-primary d-flex align-items-center justify-content-center me-0"><span
+                                                        class="rounded-circle btn-sm-square border"><i
+                                                            class="fas fa-heart"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-4 col-xl-3">
+                                <div class="product-item rounded wow fadeInUp" data-wow-delay="0.3s">
+                                    <div class="product-item-inner border rounded">
+                                        <div class="product-item-inner-item">
+                                            <img src="img/product-4.png" class="img-fluid w-100 rounded-top" alt="">
+                                            <div class="product-new">Yeni</div>
+                                            <div class="product-details">
+                                                <a href="#"><i class="fa fa-eye fa-1x"></i></a>
+                                            </div>
+                                        </div>
+                                        <div class="text-center rounded-bottom p-4">
+                                            <a href="#" class="d-block mb-2">Kamera</a>
+                                            <a href="#" class="d-block h4">Canon Kamera <br> G2356</a>
+                                            <del class="me-2 fs-5">20000TL</del>
+                                            <span class="text-primary fs-5">17000TL</span>
+                                        </div>
+                                    </div>
+                                    <div
+                                        class="product-item-add border border-top-0 rounded-bottom  text-center p-4 pt-0">
+                                        <a href="#"
+                                            class="btn btn-primary border-secondary rounded-pill py-2 px-4 mb-4"><i
+                                                class="fas fa-shopping-cart me-2"></i> Sepete Ekle</a>
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <div class="d-flex">
+                                                <i class="fas fa-star text-primary"></i>
+                                                <i class="fas fa-star text-primary"></i>
+                                                <i class="fas fa-star text-primary"></i>
+                                                <i class="fas fa-star text-primary"></i>
+                                                <i class="fas fa-star"></i>
+                                            </div>
+                                            <div class="d-flex">
+                                                <a href="#"
+                                                    class="text-primary d-flex align-items-center justify-content-center me-3"><span
+                                                        class="rounded-circle btn-sm-square border"><i
+                                                            class="fas fa-random"></i></i></a>
+                                                <a href="#"
+                                                    class="text-primary d-flex align-items-center justify-content-center me-0"><span
+                                                        class="rounded-circle btn-sm-square border"><i
+                                                            class="fas fa-heart"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-4 col-xl-3">
+                                <div class="product-item rounded wow fadeInUp" data-wow-delay="0.5s">
+                                    <div class="product-item-inner border rounded">
+                                        <div class="product-item-inner-item">
+                                            <img src="img/product-5.png" class="img-fluid w-100 rounded-top" alt="">
+                                            <div class="product-new">Yeni</div>
+                                            <div class="product-details">
+                                                <a href="#"><i class="fa fa-eye fa-1x"></i></a>
+                                            </div>
+                                        </div>
+                                        <div class="text-center rounded-bottom p-4">
+                                            <a href="#" class="d-block mb-2">Lens</a>
+                                            <a href="#" class="d-block h4">Canon EF 50mm f/1.8 STM <br> G2356</a>
+                                            <del class="me-2 fs-5">17000TL</del>
+                                            <span class="text-primary fs-5">15000TL</span>
+                                        </div>
+                                    </div>
+                                    <div
+                                        class="product-item-add border border-top-0 rounded-bottom  text-center p-4 pt-0">
+                                        <a href="#"
+                                            class="btn btn-primary border-secondary rounded-pill py-2 px-4 mb-4"><i
+                                                class="fas fa-shopping-cart me-2"></i> Add To Cart</a>
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <div class="d-flex">
+                                                <i class="fas fa-star text-primary"></i>
+                                                <i class="fas fa-star text-primary"></i>
+                                                <i class="fas fa-star text-primary"></i>
+                                                <i class="fas fa-star text-primary"></i>
+                                                <i class="fas fa-star"></i>
+                                            </div>
+                                            <div class="d-flex">
+                                                <a href="#"
+                                                    class="text-primary d-flex align-items-center justify-content-center me-3"><span
+                                                        class="rounded-circle btn-sm-square border"><i
+                                                            class="fas fa-random"></i></i></a>
+                                                <a href="#"
+                                                    class="text-primary d-flex align-items-center justify-content-center me-0"><span
+                                                        class="rounded-circle btn-sm-square border"><i
+                                                            class="fas fa-heart"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-4 col-xl-3">
+                                <div class="product-item rounded wow fadeInUp" data-wow-delay="0.7s">
+                                    <div class="product-item-inner border rounded">
+                                        <div class="product-item-inner-item">
+                                            <img src="img/product-6.png" class="img-fluid w-100 rounded-top"
+                                                alt="Image">
+                                            <div class="product-new">Yeni</div>
+                                            <div class="product-details">
+                                                <a href="#"><i class="fa fa-eye fa-1x"></i></a>
+                                            </div>
+                                        </div>
+                                        <div class="text-center rounded-bottom p-4">
+                                            <a href="#" class="d-block mb-2">Masaüstü Kamera</a>
+                                            <a href="#" class="d-block h4">Yi Home Masaüstü Kamera <br> G2356</a>
+                                            <del class="me-2 fs-5">3000TL</del>
+                                            <span class="text-primary fs-5">2000TL</span>
+                                        </div>
+                                    </div>
+                                    <div
+                                        class="product-item-add border border-top-0 rounded-bottom  text-center p-4 pt-0">
+                                        <a href="#"
+                                            class="btn btn-primary border-secondary rounded-pill py-2 px-4 mb-4"><i
+                                                class="fas fa-shopping-cart me-2"></i> Sepete Ekle</a>
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <div class="d-flex">
+                                                <i class="fas fa-star text-primary"></i>
+                                                <i class="fas fa-star text-primary"></i>
+                                                <i class="fas fa-star text-primary"></i>
+                                                <i class="fas fa-star text-primary"></i>
+                                                <i class="fas fa-star"></i>
+                                            </div>
+                                            <div class="d-flex">
+                                                <a href="#"
+                                                    class="text-primary d-flex align-items-center justify-content-center me-3"><span
+                                                        class="rounded-circle btn-sm-square border"><i
+                                                            class="fas fa-random"></i></i></a>
+                                                <a href="#"
+                                                    class="text-primary d-flex align-items-center justify-content-center me-0"><span
+                                                        class="rounded-circle btn-sm-square border"><i
+                                                            class="fas fa-heart"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="tab-3" class="tab-pane fade show p-0">
+                        <div class="row g-4">
+                            <div class="col-md-6 col-lg-4 col-xl-3">
+                                <div class="product-item rounded wow fadeInUp" data-wow-delay="0.1s">
+                                    <div class="product-item-inner border rounded">
+                                        <div class="product-item-inner-item">
+                                            <img src="img/product-9.png" class="img-fluid w-100 rounded-top" alt="">
+                                            <div class="product-details">
+                                                <a href="#"><i class="fa fa-eye fa-1x"></i></a>
+                                            </div>
+                                        </div>
+                                        <div class="text-center rounded-bottom p-4">
+                                            <a href="#" class="d-block mb-2">Klavye</a>
+                                            <a href="#" class="d-block h4">Razer Blackwidow V3 TKL Green Switch <br> G2356</a>
+                                            <del class="me-2 fs-5">6000TL</del>
+                                            <span class="text-primary fs-5">5000TL</span>
+                                        </div>
+                                    </div>
+                                    <div
+                                        class="product-item-add border border-top-0 rounded-bottom  text-center p-4 pt-0">
+                                        <a href="#"
+                                            class="btn btn-primary border-secondary rounded-pill py-2 px-4 mb-4"><i
+                                                class="fas fa-shopping-cart me-2"></i> Sepete Ekle</a>
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <div class="d-flex">
+                                                <i class="fas fa-star text-primary"></i>
+                                                <i class="fas fa-star text-primary"></i>
+                                                <i class="fas fa-star text-primary"></i>
+                                                <i class="fas fa-star text-primary"></i>
+                                                <i class="fas fa-star"></i>
+                                            </div>
+                                            <div class="d-flex">
+                                                <a href="#"
+                                                    class="text-primary d-flex align-items-center justify-content-center me-3"><span
+                                                        class="rounded-circle btn-sm-square border"><i
+                                                            class="fas fa-random"></i></i></a>
+                                                <a href="#"
+                                                    class="text-primary d-flex align-items-center justify-content-center me-0"><span
+                                                        class="rounded-circle btn-sm-square border"><i
+                                                            class="fas fa-heart"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-4 col-xl-3">
+                                <div class="product-item rounded wow fadeInUp" data-wow-delay="0.3s">
+                                    <div class="product-item-inner border rounded">
+                                        <div class="product-item-inner-item">
+                                            <img src="img/product-10.png" class="img-fluid w-100 rounded-top"
+                                                alt="Image">
+                                            <div class="product-details">
+                                                <a href="#"><i class="fa fa-eye fa-1x"></i></a>
+                                            </div>
+                                        </div>
+                                        <div class="text-center rounded-bottom p-4">
+                                            <a href="#" class="d-block mb-2">Bluetooth Kulaklık</a>
+                                            <a href="#" class="d-block h4">JBL Tune T770bt Mavi Anc Wireless Bluetooth Kulak Üstü Kulaklık
+G2356 <br> </a>
+                                            <del class="me-2 fs-5">7000TL</del>
+                                            <span class="text-primary fs-5">6200TL</span>
+                                        </div>
+                                    </div>
+                                    <div
+                                        class="product-item-add border border-top-0 rounded-bottom  text-center p-4 pt-0">
+                                        <a href="#"
+                                            class="btn btn-primary border-secondary rounded-pill py-2 px-4 mb-4"><i
+                                                class="fas fa-shopping-cart me-2"></i> Sepete Ekle</a>
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <div class="d-flex">
+                                                <i class="fas fa-star text-primary"></i>
+                                                <i class="fas fa-star text-primary"></i>
+                                                <i class="fas fa-star text-primary"></i>
+                                                <i class="fas fa-star text-primary"></i>
+                                                <i class="fas fa-star"></i>
+                                            </div>
+                                            <div class="d-flex">
+                                                <a href="#"
+                                                    class="text-primary d-flex align-items-center justify-content-center me-3"><span
+                                                        class="rounded-circle btn-sm-square border"><i
+                                                            class="fas fa-random"></i></i></a>
+                                                <a href="#"
+                                                    class="text-primary d-flex align-items-center justify-content-center me-0"><span
+                                                        class="rounded-circle btn-sm-square border"><i
+                                                            class="fas fa-heart"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-4 col-xl-3">
+                                <div class="product-item rounded wow fadeInUp" data-wow-delay="0.5s">
+                                    <div class="product-item-inner border rounded">
+                                        <div class="product-item-inner-item">
+                                            <img src="img/product-11.png" class="img-fluid w-100 rounded-top"
+                                                alt="Image">
+                                            <div class="product-details">
+                                                <a href="#"><i class="fa fa-eye fa-1x"></i></a>
+                                            </div>
+                                        </div>
+                                        <div class="text-center rounded-bottom p-4">
+                                            <a href="#" class="d-block mb-2">Bluetooth Kulaklık</a>
+                                            <a href="#" class="d-block h4">Beyaz 2.nesil Ios Android Uyumlu Kablosuz Bluetooth Kulaklık Karışık Renk Kılıf Hediyeli Plus
+ <br> </a>
+                                            <del class="me-2 fs-5">1000TL</del>
+                                            <span class="text-primary fs-5">500TL</span>
+                                        </div>
+                                    </div>
+                                    <div
+                                        class="product-item-add border border-top-0 rounded-bottom  text-center p-4 pt-0">
+                                        <a href="#"
+                                            class="btn btn-primary border-secondary rounded-pill py-2 px-4 mb-4"><i
+                                                class="fas fa-shopping-cart me-2"></i> Sepete Ekle</a>
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <div class="d-flex">
+                                                <i class="fas fa-star text-primary"></i>
+                                                <i class="fas fa-star text-primary"></i>
+                                                <i class="fas fa-star text-primary"></i>
+                                                <i class="fas fa-star text-primary"></i>
+                                                <i class="fas fa-star"></i>
+                                            </div>
+                                            <div class="d-flex">
+                                                <a href="#"
+                                                    class="text-primary d-flex align-items-center justify-content-center me-3"><span
+                                                        class="rounded-circle btn-sm-square border"><i
+                                                            class="fas fa-random"></i></i></a>
+                                                <a href="#"
+                                                    class="text-primary d-flex align-items-center justify-content-center me-0"><span
+                                                        class="rounded-circle btn-sm-square border"><i
+                                                            class="fas fa-heart"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-4 col-xl-3">
+                                <div class="product-item rounded wow fadeInUp" data-wow-delay="0.7s">
+                                    <div class="product-item-inner border rounded">
+                                        <div class="product-item-inner-item">
+                                            <img src="img/product-12.png" class="img-fluid w-100 rounded-top"
+                                                alt="Image">
+                                            <div class="product-details">
+                                                <a href="#"><i class="fa fa-eye fa-1x"></i></a>
+                                            </div>
+                                        </div>
+                                        <div class="text-center rounded-bottom p-4">
+                                            <a href="#" class="d-block mb-2">Monitör</a>
+                                            <a href="single9.html" class="d-block h4">LENOVO Legion R27qe 27 inç 0.5 ms 180 Hz 2K IPS Monitör <br> </a>
+                                            <del class="me-2 fs-5">11000TL</del>
+                                            <span class="text-primary fs-5">9500Tl</span>
+                                        </div>
+                                    </div>
+                                    <div
+                                        class="product-item-add border border-top-0 rounded-bottom  text-center p-4 pt-0">
+                                        <a href="#"
+                                            class="btn btn-primary border-secondary rounded-pill py-2 px-4 mb-4"><i
+                                                class="fas fa-shopping-cart me-2"></i> Sepete Ekle</a>
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <div class="d-flex">
+                                                <i class="fas fa-star text-primary"></i>
+                                                <i class="fas fa-star text-primary"></i>
+                                                <i class="fas fa-star text-primary"></i>
+                                                <i class="fas fa-star text-primary"></i>
+                                                <i class="fas fa-star"></i>
+                                            </div>
+                                            <div class="d-flex">
+                                                <a href="#"
+                                                    class="text-primary d-flex align-items-center justify-content-center me-3"><span
+                                                        class="rounded-circle btn-sm-square border"><i
+                                                            class="fas fa-random"></i></i></a>
+                                                <a href="#"
+                                                    class="text-primary d-flex align-items-center justify-content-center me-0"><span
+                                                        class="rounded-circle btn-sm-square border"><i
+                                                            class="fas fa-heart"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="tab-4" class="tab-pane fade show p-0">
+                        <div class="row g-4">
+                            <div class="col-md-6 col-lg-4 col-xl-3">
+                                <div class="product-item rounded wow fadeInUp" data-wow-delay="0.1s">
+                                    <div class="product-item-inner border rounded">
+                                        <div class="product-item-inner-item">
+                                            <img src="img/product-14.png" class="img-fluid w-100 rounded-top"
+                                                alt="Image">
+                                            <div class="product-details">
+                                                <a href="#"><i class="fa fa-eye fa-1x"></i></a>
+                                            </div>
+                                        </div>
+                                        <div class="text-center rounded-bottom p-4">
+                                            <a href="#" class="d-block mb-2">Akıllı Telefon</a>
+                                            <a href="#" class="d-block h4"> MG8J4TU/A iPhone 17 Pro 256GB Akıllı Telefon Derin Mavi <br> G2356</a>
+                                            <del class="me-2 fs-5">120.000TL</del>
+                                            <span class="text-primary fs-5">100.000TL</span>
+                                        </div>
+                                    </div>
+                                    <div
+                                        class="product-item-add border border-top-0 rounded-bottom  text-center p-4 pt-0">
+                                        <a href="#"
+                                            class="btn btn-primary border-secondary rounded-pill py-2 px-4 mb-4"><i
+                                                class="fas fa-shopping-cart me-2"></i> Sepete Ekle</a>
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <div class="d-flex">
+                                                <i class="fas fa-star text-primary"></i>
+                                                <i class="fas fa-star text-primary"></i>
+                                                <i class="fas fa-star text-primary"></i>
+                                                <i class="fas fa-star text-primary"></i>
+                                                <i class="fas fa-star"></i>
+                                            </div>
+                                            <div class="d-flex">
+                                                <a href="#"
+                                                    class="text-primary d-flex align-items-center justify-content-center me-3"><span
+                                                        class="rounded-circle btn-sm-square border"><i
+                                                            class="fas fa-random"></i></i></a>
+                                                <a href="#"
+                                                    class="text-primary d-flex align-items-center justify-content-center me-0"><span
+                                                        class="rounded-circle btn-sm-square border"><i
+                                                            class="fas fa-heart"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-4 col-xl-3">
+                                <div class="product-item rounded wow fadeInUp" data-wow-delay="0.3s">
+                                    <div class="product-item-inner border rounded">
+                                        <div class="product-item-inner-item">
+                                            <img src="img/product-15.png" class="img-fluid w-100 rounded-top"
+                                                alt="Image">
+                                            <div class="product-details">
+                                                <a href="#"><i class="fa fa-eye fa-1x"></i></a>
+                                            </div>
+                                        </div>
+                                        <div class="text-center rounded-bottom p-4">
+                                            <a href="#" class="d-block mb-2">Akıllı Telefon</a>
+                                            <a href="#" class="d-block h4">APPLE iPhone 15 128 GB Akıllı Telefon Mavi MTP43TU/A <br> </a>
+                                            <del class="me-2 fs-5">60.000TL</del>
+                                            <span class="text-primary fs-5">50.000TL</span>
+                                        </div>
+                                    </div>
+                                    <div
+                                        class="product-item-add border border-top-0 rounded-bottom  text-center p-4 pt-0">
+                                        <a href="#"
+                                            class="btn btn-primary border-secondary rounded-pill py-2 px-4 mb-4"><i
+                                                class="fas fa-shopping-cart me-2"></i> Sepete Ekle</a>
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <div class="d-flex">
+                                                <i class="fas fa-star text-primary"></i>
+                                                <i class="fas fa-star text-primary"></i>
+                                                <i class="fas fa-star text-primary"></i>
+                                                <i class="fas fa-star text-primary"></i>
+                                                <i class="fas fa-star"></i>
+                                            </div>
+                                            <div class="d-flex">
+                                                <a href="#"
+                                                    class="text-primary d-flex align-items-center justify-content-center me-3"><span
+                                                        class="rounded-circle btn-sm-square border"><i
+                                                            class="fas fa-random"></i></i></a>
+                                                <a href="#"
+                                                    class="text-primary d-flex align-items-center justify-content-center me-0"><span
+                                                        class="rounded-circle btn-sm-square border"><i
+                                                            class="fas fa-heart"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-4 col-xl-3">
+                                <div class="product-item rounded wow fadeInUp" data-wow-delay="0.5s">
+                                    <div class="product-item-inner border rounded">
+                                        <div class="product-item-inner-item">
+                                            <img src="img/product-17.png" class="img-fluid w-100 rounded-top"
+                                                alt="Image">
+                                            <div class="product-details">
+                                                <a href="#"><i class="fa fa-eye fa-1x"></i></a>
+                                            </div>
+                                        </div>
+                                        <div class="text-center rounded-bottom p-4">
+                                            <a href="#" class="d-block mb-2">Akıllı Telefon</a>
+                                            <a href="#" class="d-block h4">APPLE iPhone 13 128 GB Akıllı Telefon Starlight MLPG3TU/A <br> </a>
+                                            <del class="me-2 fs-5">40.000TL</del>
+                                            <span class="text-primary fs-5">36.000TL</span>
+                                        </div>
+                                    </div>
+                                    <div
+                                        class="product-item-add border border-top-0 rounded-bottom  text-center p-4 pt-0">
+                                        <a href="#"
+                                            class="btn btn-primary border-secondary rounded-pill py-2 px-4 mb-4"><i
+                                                class="fas fa-shopping-cart me-2"></i> Sepete Ekle</a>
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <div class="d-flex">
+                                                <i class="fas fa-star text-primary"></i>
+                                                <i class="fas fa-star text-primary"></i>
+                                                <i class="fas fa-star text-primary"></i>
+                                                <i class="fas fa-star text-primary"></i>
+                                                <i class="fas fa-star"></i>
+                                            </div>
+                                            <div class="d-flex">
+                                                <a href="#"
+                                                    class="text-primary d-flex align-items-center justify-content-center me-3"><span
+                                                        class="rounded-circle btn-sm-square border"><i
+                                                            class="fas fa-random"></i></i></a>
+                                                <a href="#"
+                                                    class="text-primary d-flex align-items-center justify-content-center me-0"><span
+                                                        class="rounded-circle btn-sm-square border"><i
+                                                            class="fas fa-heart"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-4 col-xl-3">
+                                <div class="product-item rounded wow fadeInUp" data-wow-delay="0.7s">
+                                    <div class="product-item-inner border rounded">
+                                        <div class="product-item-inner-item">
+                                            <img src="img/product-16.png" class="img-fluid w-100 rounded-top"
+                                                alt="Image">
+                                            <div class="product-details">
+                                                <a href="#"><i class="fa fa-eye fa-1x"></i></a>
+                                            </div>
+                                        </div>
+                                        <div class="text-center rounded-bottom p-4">
+                                            <a href="#" class="d-block mb-2">Akıllı Telefon</a>
+                                            <a href="#" class="d-block h4">XIAOMI Redmi Note 14 Pro 12/512 GB Akıllı Telefon Siyah
+
+ <br> </a>
+                                            <del class="me-2 fs-5">25.000TL</del>
+                                            <span class="text-primary fs-5">21.499TL</span>
+                                        </div>
+                                    </div>
+                                    <div
+                                        class="product-item-add border border-top-0 rounded-bottom  text-center p-4 pt-0">
+                                        <a href="#"
+                                            class="btn btn-primary border-secondary rounded-pill py-2 px-4 mb-4"><i
+                                                class="fas fa-shopping-cart me-2"></i> Sepete Ekle</a>
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <div class="d-flex">
+                                                <i class="fas fa-star text-primary"></i>
+                                                <i class="fas fa-star text-primary"></i>
+                                                <i class="fas fa-star text-primary"></i>
+                                                <i class="fas fa-star text-primary"></i>
+                                                <i class="fas fa-star"></i>
+                                            </div>
+                                            <div class="d-flex">
+                                                <a href="#"
+                                                    class="text-primary d-flex align-items-center justify-content-center me-3"><span
+                                                        class="rounded-circle btn-sm-square border"><i
+                                                            class="fas fa-random"></i></i></a>
+                                                <a href="#"
+                                                    class="text-primary d-flex align-items-center justify-content-center me-0"><span
+                                                        class="rounded-circle btn-sm-square border"><i
+                                                            class="fas fa-heart"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Our Products End -->
+
+    <!-- Product Banner Start -->
+    <div class="container-fluid py-5">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-lg-6 wow fadeInLeft" data-wow-delay="0.1s">
+                    <a href="#">
+                        <div class="bg-primary rounded position-relative">
+                            <img src="img/product-banner.jpg" class="img-fluid w-100 rounded" alt="">
+                            <div class="position-absolute top-0 start-0 w-100 h-100 d-flex flex-column justify-content-center rounded p-4"
+                                style="background: rgba(255, 255, 255, 0.5);">
+                                <h3 class="display-5 text-primary">EOS Rebel <br> <span>T7i Kit</span></h3>
+                                <p class="fs-4 text-muted">25.000TL</p>
+                                <a href="#" class="btn btn-primary rounded-pill align-self-start py-2 px-4">Şimdi Satın Al!</a>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-6 wow fadeInRight" data-wow-delay="0.2s">
+                    <a href="#">
+                        <div class="text-center bg-primary rounded position-relative">
+                            <img src="img/product-banner-2.jpg" class="img-fluid w-100" alt="">
+                            <div class="position-absolute top-0 start-0 w-100 h-100 d-flex flex-column justify-content-center rounded p-4"
+                                style="background: rgba(242, 139, 0, 0.5);">
+                                <h2 class="display-2 text-secondary">İndirimde!</h2>
+                                <h4 class="display-5 text-white mb-4">%50'ye Varan İndirimler!</h4>
+                                <a href="#" class="btn btn-secondary rounded-pill align-self-center py-2 px-4">Şimdi Satın Al!</a>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Product Banner End -->
+
+    <!-- Product List Satrt -->
+    <div class="container-fluid products productList overflow-hidden">
+        <div class="container products-mini py-5">
+            <div class="mx-auto text-center mb-5" style="max-width: 900px;">
+                <h4 class="text-primary border-bottom border-primary border-2 d-inline-block p-2 title-border-radius wow fadeInUp"
+                    data-wow-delay="0.1s">Ürünler</h4>
+                <h1 class="mb-0 display-3 wow fadeInUp" data-wow-delay="0.3s">Tüm Ürünler</h1>
+            </div>
+            <div class="productList-carousel owl-carousel pt-4 wow fadeInUp" data-wow-delay="0.3s">
+                <div class="productImg-carousel owl-carousel productList-item">
+                    <div class="productImg-item products-mini-item border">
+                        <div class="row g-0">
+                            <div class="col-5">
+                                <div class="products-mini-img border-end h-100">
+                                    <img src="img/product-4.png" class="img-fluid w-100 h-100" alt="Image">
+                                    <div class="products-mini-icon rounded-circle bg-primary">
+                                        <a href="#"><i class="fa fa-eye fa-1x text-white"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-7">
+                                <div class="products-mini-content p-3">
+                                    <a href="#" class="d-block mb-2">Kamera</a>
+                                    <a href="single1.html" class="d-block h4">Canon Kamera
+ <br> G2356</a>
+                                    <del class="me-2 fs-5">20.000TL </del>
+                                    <span class="text-primary fs-5">17.000TL</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="products-mini-add border p-3">
+                            <a href="#" class="btn btn-primary border-secondary rounded-pill py-2 px-4"><i
+                                    class="fas fa-shopping-cart me-2"></i> Sepete Ekle</a>
+                            <div class="d-flex">
+                                <a href="#"
+                                    class="text-primary d-flex align-items-center justify-content-center me-3"><span
+                                        class="rounded-circle btn-sm-square border"><i
+                                            class="fas fa-random"></i></i></a>
+                                <a href="#"
+                                    class="text-primary d-flex align-items-center justify-content-center me-0"><span
+                                        class="rounded-circle btn-sm-square border"><i class="fas fa-heart"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="productImg-item products-mini-item border">
+                        <div class="row g-0">
+                            <div class="col-5">
+                                <div class="products-mini-img border-end h-100">
+                                    <img src="img/product-4.png" class="img-fluid w-100 h-100" alt="Image">
+                                    <div class="products-mini-icon rounded-circle bg-primary">
+                                        <a href="#"><i class="fa fa-eye fa-1x text-white"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-7">
+                                <div class="products-mini-content p-3">
+                                    <a href="#" class="d-block mb-2">Kamera</a>
+                                    <a href="single1.html" class="d-block h4">Canon Kamera
+G2356 <br> </a>
+                                    <del class="me-2 fs-5">20000TL </del>
+                                    <span class="text-primary fs-5">17000TL</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="products-mini-add border p-3">
+                            <a href="#" class="btn btn-primary border-secondary rounded-pill py-2 px-4"><i
+                                    class="fas fa-shopping-cart me-2"></i> Sepete Ekle</a>
+                            <div class="d-flex">
+                                <a href="#"
+                                    class="text-primary d-flex align-items-center justify-content-center me-3"><span
+                                        class="rounded-circle btn-sm-square border"><i
+                                            class="fas fa-random"></i></i></a>
+                                <a href="#"
+                                    class="text-primary d-flex align-items-center justify-content-center me-0"><span
+                                        class="rounded-circle btn-sm-square border"><i class="fas fa-heart"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="productImg-item products-mini-item border">
+                        <div class="row g-0">
+                            <div class="col-5">
+                                <div class="products-mini-img border-end h-100">
+                                    <img src="img/product-6.png" class="img-fluid w-100 h-100" alt="Image">
+                                    <div class="products-mini-icon rounded-circle bg-primary">
+                                        <a href="#"><i class="fa fa-eye fa-1x text-white"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-7">
+                                <div class="products-mini-content p-3">
+                                    <a href="#" class="d-block mb-2">Masaüstü Kamera</a>
+                                    <a href="single3.html" class="d-block h4">Yi Home Masaüstü Kamera <br> </a>
+                                    <del class="me-2 fs-5">3000TL</del>
+                                    <span class="text-primary fs-5">2000Tl</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="products-mini-add border p-3">
+                            <a href="#" class="btn btn-primary border-secondary rounded-pill py-2 px-4"><i
+                                    class="fas fa-shopping-cart me-2"></i> Sepete Ekle</a>
+                            <div class="d-flex">
+                                <a href="#"
+                                    class="text-primary d-flex align-items-center justify-content-center me-3"><span
+                                        class="rounded-circle btn-sm-square border"><i
+                                            class="fas fa-random"></i></i></a>
+                                <a href="#"
+                                    class="text-primary d-flex align-items-center justify-content-center me-0"><span
+                                        class="rounded-circle btn-sm-square border"><i class="fas fa-heart"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="productImg-item products-mini-item border">
+                        <div class="row g-0">
+                            <div class="col-5">
+                                <div class="products-mini-img border-end h-100">
+                                    <img src="img/product-7.png" class="img-fluid w-100 h-100" alt="Image">
+                                    <div class="products-mini-icon rounded-circle bg-primary">
+                                        <a href="#"><i class="fa fa-eye fa-1x text-white"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-7">
+                                <div class="products-mini-content p-3">
+                                    <a href="#" class="d-block mb-2">Kamera</a>
+                                    <a href="single4.html" class="d-block h4">Polaroid Now Gen 2 <br> </a>
+                                    <del class="me-2 fs-5">30.000TL</del>
+                                    <span class="text-primary fs-5">25.000TL</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="products-mini-add border p-3">
+                            <a href="#" class="btn btn-primary border-secondary rounded-pill py-2 px-4"><i
+                                    class="fas fa-shopping-cart me-2"></i> Sepete Ekle</a>
+                            <div class="d-flex">
+                                <a href="#"
+                                    class="text-primary d-flex align-items-center justify-content-center me-3"><span
+                                        class="rounded-circle btn-sm-square border"><i
+                                            class="fas fa-random"></i></i></a>
+                                <a href="#"
+                                    class="text-primary d-flex align-items-center justify-content-center me-0"><span
+                                        class="rounded-circle btn-sm-square border"><i class="fas fa-heart"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="productImg-carousel owl-carousel productList-item">
+                    <div class="productImg-item products-mini-item border">
+                        <div class="row g-0">
+                            <div class="col-5">
+                                <div class="products-mini-img border-end h-100">
+                                    <img src="img/product-8.png" class="img-fluid w-100 h-100" alt="Image">
+                                    <div class="products-mini-icon rounded-circle bg-primary">
+                                        <a href="#"><i class="fa fa-eye fa-1x text-white"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-7">
+                                <div class="products-mini-content p-3">
+                                    <a href="#" class="d-block mb-2">Bluetooth Kulaklık</a>
+                                    <a href="single5.html" class="d-block h4">Sony WH1000XM2B Bluetooth Kulaklık
+G2356 <br> </a>
+                                    <del class="me-2 fs-5">3.000TL</del>
+                                    <span class="text-primary fs-5">2.000TL</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="products-mini-add border p-3">
+                            <a href="#" class="btn btn-primary border-secondary rounded-pill py-2 px-4"><i
+                                    class="fas fa-shopping-cart me-2"></i> Add To Cart</a>
+                            <div class="d-flex">
+                                <a href="#"
+                                    class="text-primary d-flex align-items-center justify-content-center me-3"><span
+                                        class="rounded-circle btn-sm-square border"><i
+                                            class="fas fa-random"></i></i></a>
+                                <a href="#"
+                                    class="text-primary d-flex align-items-center justify-content-center me-0"><span
+                                        class="rounded-circle btn-sm-square border"><i class="fas fa-heart"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="productImg-item products-mini-item border">
+                        <div class="row g-0">
+                            <div class="col-5">
+                                <div class="products-mini-img border-end h-100">
+                                    <img src="img/product-9.png" class="img-fluid w-100 h-100" alt="Image">
+                                    <div class="products-mini-icon rounded-circle bg-primary">
+                                        <a href="#"><i class="fa fa-eye fa-1x text-white"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-7">
+                                <div class="products-mini-content p-3">
+                                    <a href="#" class="d-block mb-2">Klavye</a>
+                                    <a href="single6.html" class="d-block h4">Razer Blackwidow V3 TKL Green Switch <br> </a>
+                                    <del class="me-2 fs-5">6.000TL</del>
+                                    <span class="text-primary fs-5">5.000TL</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="products-mini-add border p-3">
+                            <a href="#" class="btn btn-primary border-secondary rounded-pill py-2 px-4"><i
+                                    class="fas fa-shopping-cart me-2"></i> Sepete Ekle</a>
+                            <div class="d-flex">
+                                <a href="#"
+                                    class="text-primary d-flex align-items-center justify-content-center me-3"><span
+                                        class="rounded-circle btn-sm-square border"><i
+                                            class="fas fa-random"></i></i></a>
+                                <a href="#"
+                                    class="text-primary d-flex align-items-center justify-content-center me-0"><span
+                                        class="rounded-circle btn-sm-square border"><i class="fas fa-heart"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="productImg-item products-mini-item border">
+                        <div class="row g-0">
+                            <div class="col-5">
+                                <div class="products-mini-img border-end h-100">
+                                    <img src="img/product-10.png" class="img-fluid w-100 h-100" alt="Image">
+                                    <div class="products-mini-icon rounded-circle bg-primary">
+                                        <a href="#"><i class="fa fa-eye fa-1x text-white"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-7">
+                                <div class="products-mini-content p-3">
+                                    <a href="#" class="d-block mb-2">Bluetooth Kulaklık</a>
+                                    <a href="single7.html" class="d-block h4">JBL Tune T770bt Mavi Anc Wireless Bluetooth Kulak Üstü Kulaklık <br> G2356</a>
+                                    <del class="me-2 fs-5">7.000TL</del>
+                                    <span class="text-primary fs-5">6.200TL</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="products-mini-add border p-3">
+                            <a href="#" class="btn btn-primary border-secondary rounded-pill py-2 px-4"><i
+                                    class="fas fa-shopping-cart me-2"></i> Sepete Ekle</a>
+                            <div class="d-flex">
+                                <a href="#"
+                                    class="text-primary d-flex align-items-center justify-content-center me-3"><span
+                                        class="rounded-circle btn-sm-square border"><i
+                                            class="fas fa-random"></i></i></a>
+                                <a href="#"
+                                    class="text-primary d-flex align-items-center justify-content-center me-0"><span
+                                        class="rounded-circle btn-sm-square border"><i class="fas fa-heart"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="productImg-item products-mini-item border">
+                        <div class="row g-0">
+                            <div class="col-5">
+                                <div class="products-mini-img border-end h-100">
+                                    <img src="img/product-11.png" class="img-fluid w-100 h-100" alt="Image">
+                                    <div class="products-mini-icon rounded-circle bg-primary">
+                                        <a href="#"><i class="fa fa-eye fa-1x text-white"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-7">
+                                <div class="products-mini-content p-3">
+                                    <a href="#" class="d-block mb-2">Bluetooth Kulaklık</a>
+                                    <a href="single8.html" class="d-block h4">Beyaz 2.nesil Ios Android Uyumlu Kablosuz Bluetooth Kulaklık Karışık Renk Kılıf Hediyeli Plus <br> </a>
+                                    <del class="me-2 fs-5">1.000TL</del>
+                                    <span class="text-primary fs-5">500TL</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="products-mini-add border p-3">
+                            <a href="#" class="btn btn-primary border-secondary rounded-pill py-2 px-4"><i
+                                    class="fas fa-shopping-cart me-2"></i> Sepete Ekle</a>
+                            <div class="d-flex">
+                                <a href="#"
+                                    class="text-primary d-flex align-items-center justify-content-center me-3"><span
+                                        class="rounded-circle btn-sm-square border"><i
+                                            class="fas fa-random"></i></i></a>
+                                <a href="#"
+                                    class="text-primary d-flex align-items-center justify-content-center me-0"><span
+                                        class="rounded-circle btn-sm-square border"><i class="fas fa-heart"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="productImg-carousel owl-carousel productList-item">
+                    <div class="productImg-item products-mini-item border">
+                        <div class="row g-0">
+                            <div class="col-5">
+                                <div class="products-mini-img border-end h-100">
+                                    <img src="img/product-12.png" class="img-fluid w-100 h-100" alt="Image">
+                                    <div class="products-mini-icon rounded-circle bg-primary">
+                                        <a href="#"><i class="fa fa-eye fa-1x text-white"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-7"> 
+                                <div class="products-mini-content p-3">
+                                    <a href="#" class="d-block mb-2">Monitör</a>
+                                    <a href="single9.html" class="d-block h4">LENOVO Legion R27qe 27 inç 0.5 ms 180 Hz 2K IPS Monitör <br> </a>
+                                    <del class="me-2 fs-5">11.000TL</del>
+                                    <span class="text-primary fs-5">9.500TL</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="products-mini-add border p-3">
+                            <a href="#" class="btn btn-primary border-secondary rounded-pill py-2 px-4"><i
+                                    class="fas fa-shopping-cart me-2"></i> Sepete Ekle</a>
+                            <div class="d-flex">
+                                <a href="#"
+                                    class="text-primary d-flex align-items-center justify-content-center me-3"><span
+                                        class="rounded-circle btn-sm-square border"><i
+                                            class="fas fa-random"></i></i></a>
+                                <a href="#"
+                                    class="text-primary d-flex align-items-center justify-content-center me-0"><span
+                                        class="rounded-circle btn-sm-square border"><i class="fas fa-heart"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="productImg-item products-mini-item border">
+                        <div class="row g-0">
+                            <div class="col-5">
+                                <div class="products-mini-img border-end h-100">
+                                    <img src="img/product-13.png" class="img-fluid w-100 h-100" alt="Image">
+                                    <div class="products-mini-icon rounded-circle bg-primary">
+                                        <a href="#"><i class="fa fa-eye fa-1x text-white"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-7">
+                                <div class="products-mini-content p-3">
+                                    <a href="#" class="d-block mb-2">Akıllı Saat</a>
+                                    <a href="single10.html" class="d-block h4">Polar Watch A370 <br> </a>
+                                    <del class="me-2 fs-5">1000TL</del>
+                                    <span class="text-primary fs-5">750TL</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="products-mini-add border p-3">
+                            <a href="#" class="btn btn-primary border-secondary rounded-pill py-2 px-4"><i
+                                    class="fas fa-shopping-cart me-2"></i> Sepete Ekle</a>
+                            <div class="d-flex">
+                                <a href="#"
+                                    class="text-primary d-flex align-items-center justify-content-center me-3"><span
+                                        class="rounded-circle btn-sm-square border"><i
+                                            class="fas fa-random"></i></i></a>
+                                <a href="#"
+                                    class="text-primary d-flex align-items-center justify-content-center me-0"><span
+                                        class="rounded-circle btn-sm-square border"><i class="fas fa-heart"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="productImg-item products-mini-item border">
+                        <div class="row g-0">
+                            <div class="col-5">
+                                <div class="products-mini-img border-end h-100">
+                                    <img src="img/product-14.png" class="img-fluid w-100 h-100" alt="Image">
+                                    <div class="products-mini-icon rounded-circle bg-primary">
+                                        <a href="#"><i class="fa fa-eye fa-1x text-white"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-7">
+                                <div class="products-mini-content p-3">
+                                    <a href="#" class="d-block mb-2">Akıllı Telefon</a>
+                                    <a href="#" class="d-block h4">MG8J4TU/A iPhone 17 Pro 256GB Akıllı Telefon Derin Mavi <br> G2356</a>
+                                    <del class="me-2 fs-5">120.000TL</del>
+                                    <span class="text-primary fs-5">100.000TL</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="products-mini-add border p-3">
+                            <a href="#" class="btn btn-primary border-secondary rounded-pill py-2 px-4"><i
+                                    class="fas fa-shopping-cart me-2"></i> Sepete Ekle</a>
+                            <div class="d-flex">
+                                <a href="#"
+                                    class="text-primary d-flex align-items-center justify-content-center me-3"><span
+                                        class="rounded-circle btn-sm-square border"><i
+                                            class="fas fa-random"></i></i></a>
+                                <a href="#"
+                                    class="text-primary d-flex align-items-center justify-content-center me-0"><span
+                                        class="rounded-circle btn-sm-square border"><i class="fas fa-heart"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="productImg-item products-mini-item border">
+                        <div class="row g-0">
+                            <div class="col-5">
+                                <div class="products-mini-img border-end h-100">
+                                    <img src="img/product-15.png" class="img-fluid w-100 h-100" alt="Image">
+                                    <div class="products-mini-icon rounded-circle bg-primary">
+                                        <a href="#"><i class="fa fa-eye fa-1x text-white"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-7">
+                                <div class="products-mini-content p-3">
+                                    <a href="#" class="d-block mb-2">Akıllı Telefon</a>
+                                    <a href="#" class="d-block h4">APPLE iPhone 15 128 GB Akıllı Telefon Mavi MTP43TU/A <br> </a>
+                                    <del class="me-2 fs-5">60.000TL</del>
+                                    <span class="text-primary fs-5">50.000TL</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="products-mini-add border p-3">
+                            <a href="#" class="btn btn-primary border-secondary rounded-pill py-2 px-4"><i
+                                    class="fas fa-shopping-cart me-2"></i> Sepete Ekle</a>
+                            <div class="d-flex">
+                                <a href="#"
+                                    class="text-primary d-flex align-items-center justify-content-center me-3"><span
+                                        class="rounded-circle btn-sm-square border"><i
+                                            class="fas fa-random"></i></i></a>
+                                <a href="#"
+                                    class="text-primary d-flex align-items-center justify-content-center me-0"><span
+                                        class="rounded-circle btn-sm-square border"><i class="fas fa-heart"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="productImg-carousel owl-carousel productList-item">
+                    <div class="productImg-item products-mini-item border">
+                        <div class="row g-0">
+                            <div class="col-5">
+                                <div class="products-mini-img border-end h-100">
+                                    <img src="img/product-16.png" class="img-fluid w-100 h-100" alt="Image">
+                                    <div class="products-mini-icon rounded-circle bg-primary">
+                                        <a href="#"><i class="fa fa-eye fa-1x text-white"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-7">
+                                <div class="products-mini-content p-3">
+                                    <a href="#" class="d-block mb-2">Akıllı Telefon</a>
+                                    <a href="#" class="d-block h4">XIAOMI Redmi Note 14 Pro 12/512 GB Akıllı Telefon Siyah <br> </a>
+                                    <del class="me-2 fs-5">25.000TL</del>
+                                    <span class="text-primary fs-5">21.499TL</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="products-mini-add border p-3">
+                            <a href="#" class="btn btn-primary border-secondary rounded-pill py-2 px-4"><i
+                                    class="fas fa-shopping-cart me-2"></i> Sepete Ekle</a>
+                            <div class="d-flex">
+                                <a href="#"
+                                    class="text-primary d-flex align-items-center justify-content-center me-3"><span
+                                        class="rounded-circle btn-sm-square border"><i
+                                            class="fas fa-random"></i></i></a>
+                                <a href="#"
+                                    class="text-primary d-flex align-items-center justify-content-center me-0"><span
+                                        class="rounded-circle btn-sm-square border"><i class="fas fa-heart"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="productImg-item products-mini-item border">
+                        <div class="row g-0">
+                            <div class="col-5">
+                                <div class="products-mini-img border-end h-100">
+                                    <img src="img/product-17.png" class="img-fluid w-100 h-100" alt="Image">
+                                    <div class="products-mini-icon rounded-circle bg-primary">
+                                        <a href="#"><i class="fa fa-eye fa-1x text-white"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-7">
+                                <div class="products-mini-content p-3">
+                                    <a href="#" class="d-block mb-2">Akıllı Telefon</a>
+                                    <a href="#" class="d-block h4">APPLE iPhone 13 128 GB Akıllı Telefon Starlight MLPG3TU/A <br> </a>
+                                    <del class="me-2 fs-5">40.000TL</del>
+                                    <span class="text-primary fs-5">36.000TL</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="products-mini-add border p-3">
+                            <a href="#" class="btn btn-primary border-secondary rounded-pill py-2 px-4"><i
+                                    class="fas fa-shopping-cart me-2"></i> Sepete Ekle</a>
+                            <div class="d-flex">
+                                <a href="#"
+                                    class="text-primary d-flex align-items-center justify-content-center me-3"><span
+                                        class="rounded-circle btn-sm-square border"><i
+                                            class="fas fa-random"></i></i></a>
+                                <a href="#"
+                                    class="text-primary d-flex align-items-center justify-content-center me-0"><span
+                                        class="rounded-circle btn-sm-square border"><i class="fas fa-heart"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="productImg-item products-mini-item border">
+                        <div class="row g-0">
+                            <div class="col-5">
+                                <div class="products-mini-img border-end h-100">
+                                    <img src="img/product-3.png" class="img-fluid w-100 h-100" alt="Image">
+                                    <div class="products-mini-icon rounded-circle bg-primary">
+                                        <a href="#"><i class="fa fa-eye fa-1x text-white"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-7">
+                                <div class="products-mini-content p-3">
+                                    <a href="#" class="d-block mb-2">Akıllı Telefon</a>
+                                    <a href="#" class="d-block h4">SAMSUNG Galaxy S25 FE 8/256 GB Akıllı Telefon Beyaz<br> </a>
+                                    <del class="me-2 fs-5">40.000TL</del>
+                                    <span class="text-primary fs-5">36.000TL</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="products-mini-add border p-3">
+                            <a href="#" class="btn btn-primary border-secondary rounded-pill py-2 px-4"><i
+                                    class="fas fa-shopping-cart me-2"></i> Sepete Ekle</a>
+                            <div class="d-flex">
+                                <a href="#"
+                                    class="text-primary d-flex align-items-center justify-content-center me-3"><span
+                                        class="rounded-circle btn-sm-square border"><i
+                                            class="fas fa-random"></i></i></a>
+                                <a href="#"
+                                    class="text-primary d-flex align-items-center justify-content-center me-0"><span
+                                        class="rounded-circle btn-sm-square border"><i class="fas fa-heart"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Product List End -->
+
+    <!-- Bestseller Products Start -->
+    <div class="container-fluid products pb-5">
+        <div class="container products-mini py-5">
+            <div class="mx-auto text-center mb-5" style="max-width: 700px;">
+                <h4 class="text-primary mb-4 border-bottom border-primary border-2 d-inline-block p-2 title-border-radius wow fadeInUp"
+                    data-wow-delay="0.1s">En Çok Satan Ürünler</h4>
+                <p class="mb-0 wow fadeInUp" data-wow-delay="0.2s"></p>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-6 col-xl-4 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="products-mini-item border">
+                        <div class="row g-0">
+                            <div class="col-5">
+                                <div class="products-mini-img border-end h-100">
+                                    <img src="img/product-3.png" class="img-fluid w-100 h-100" alt="Image">
+                                    <div class="products-mini-icon rounded-circle bg-primary">
+                                        <a href="#"><i class="fa fa-eye fa-1x text-white"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-7">
+                                <div class="products-mini-content p-3">
+                                    <a href="#" class="d-block mb-2">Akıllı Telefon</a>
+                                    <a href="#" class="d-block h4">SAMSUNG Galaxy S25 FE 8/256 GB Akıllı Telefon Beyaz <br> </a>
+                                    <del class="me-2 fs-5">40.000TL</del>
+                                    <span class="text-primary fs-5">36.000TL</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="products-mini-add border p-3">
+                            <a href="#" class="btn btn-primary border-secondary rounded-pill py-2 px-4"><i
+                                    class="fas fa-shopping-cart me-2"></i> Sepete Ekle</a>
+                            <div class="d-flex">
+                                <a href="#"
+                                    class="text-primary d-flex align-items-center justify-content-center me-3"><span
+                                        class="rounded-circle btn-sm-square border"><i
+                                            class="fas fa-random"></i></i></a>
+                                <a href="#"
+                                    class="text-primary d-flex align-items-center justify-content-center me-0"><span
+                                        class="rounded-circle btn-sm-square border"><i class="fas fa-heart"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-6 col-xl-4 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="products-mini-item border">
+                        <div class="row g-0">
+                            <div class="col-5">
+                                <div class="products-mini-img border-end h-100">
+                                    <img src="img/product-4.png" class="img-fluid w-100 h-100" alt="Image">
+                                    <div class="products-mini-icon rounded-circle bg-primary">
+                                        <a href="#"><i class="fa fa-eye fa-1x text-white"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-7">
+                                <div class="products-mini-content p-3">
+                                    <a href="#" class="d-block mb-2">Kamera</a>
+                                    <a href="#" class="d-block h4">Canon Kamera <br> G2356</a>
+                                    <del class="me-2 fs-5">20.000TL</del>
+                                    <span class="text-primary fs-5">17.000TL</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="products-mini-add border p-3">
+                            <a href="#" class="btn btn-primary border-secondary rounded-pill py-2 px-4"><i
+                                    class="fas fa-shopping-cart me-2"></i> Sepete Ekle</a>
+                            <div class="d-flex">
+                                <a href="#"
+                                    class="text-primary d-flex align-items-center justify-content-center me-3"><span
+                                        class="rounded-circle btn-sm-square border"><i
+                                            class="fas fa-random"></i></i></a>
+                                <a href="#"
+                                    class="text-primary d-flex align-items-center justify-content-center me-0"><span
+                                        class="rounded-circle btn-sm-square border"><i class="fas fa-heart"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-6 col-xl-4 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="products-mini-item border">
+                        <div class="row g-0">
+                            <div class="col-5">
+                                <div class="products-mini-img border-end h-100">
+                                    <img src="img/product-5.png" class="img-fluid w-100 h-100" alt="Image">
+                                    <div class="products-mini-icon rounded-circle bg-primary">
+                                        <a href="#"><i class="fa fa-eye fa-1x text-white"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-7">
+                                <div class="products-mini-content p-3">
+                                    <a href="#" class="d-block mb-2">Lens</a>
+                                    <a href="#" class="d-block h4">Canon EF 50mm f/1.8 STM <br> </a>
+                                    <del class="me-2 fs-5">17.000TL</del>
+                                    <span class="text-primary fs-5">15.000TL</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="products-mini-add border p-3">
+                            <a href="#" class="btn btn-primary border-secondary rounded-pill py-2 px-4"><i
+                                    class="fas fa-shopping-cart me-2"></i> Sepete Ekle</a>
+                            <div class="d-flex">
+                                <a href="#"
+                                    class="text-primary d-flex align-items-center justify-content-center me-3"><span
+                                        class="rounded-circle btn-sm-square border"><i
+                                            class="fas fa-random"></i></i></a>
+                                <a href="#"
+                                    class="text-primary d-flex align-items-center justify-content-center me-0"><span
+                                        class="rounded-circle btn-sm-square border"><i class="fas fa-heart"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-6 col-xl-4 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="products-mini-item border">
+                        <div class="row g-0">
+                            <div class="col-5">
+                                <div class="products-mini-img border-end h-100">
+                                    <img src="img/product-6.png" class="img-fluid w-100 h-100" alt="Image">
+                                    <div class="products-mini-icon rounded-circle bg-primary">
+                                        <a href="#"><i class="fa fa-eye fa-1x text-white"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-7">
+                                <div class="products-mini-content p-3">
+                                    <a href="#" class="d-block mb-2">Masaüstü Kamera</a>
+                                    <a href="#" class="d-block h4">Yi Home Masaüstü Kamera <br> </a>
+                                    <del class="me-2 fs-5">3.000TL</del>
+                                    <span class="text-primary fs-5">2.000TL</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="products-mini-add border p-3">
+                            <a href="#" class="btn btn-primary border-secondary rounded-pill py-2 px-4"><i
+                                    class="fas fa-shopping-cart me-2"></i> Sepete Ekle</a>
+                            <div class="d-flex">
+                                <a href="#"
+                                    class="text-primary d-flex align-items-center justify-content-center me-3"><span
+                                        class="rounded-circle btn-sm-square border"><i
+                                            class="fas fa-random"></i></i></a>
+                                <a href="#"
+                                    class="text-primary d-flex align-items-center justify-content-center me-0"><span
+                                        class="rounded-circle btn-sm-square border"><i class="fas fa-heart"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-6 col-xl-4 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="products-mini-item border">
+                        <div class="row g-0">
+                            <div class="col-5">
+                                <div class="products-mini-img border-end h-100">
+                                    <img src="img/product-7.png" class="img-fluid w-100 h-100" alt="Image">
+                                    <div class="products-mini-icon rounded-circle bg-primary">
+                                        <a href="#"><i class="fa fa-eye fa-1x text-white"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-7">
+                                <div class="products-mini-content p-3">
+                                    <a href="#" class="d-block mb-2">Kamera</a>
+                                    <a href="#" class="d-block h4">Polaroid Now Gen 2 <br> </a>
+                                    <del class="me-2 fs-5">30.000TL</del>
+                                    <span class="text-primary fs-5">25.000TL</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="products-mini-add border p-3">
+                            <a href="#" class="btn btn-primary border-secondary rounded-pill py-2 px-4"><i
+                                    class="fas fa-shopping-cart me-2"></i> Sepete Ekle</a>
+                            <div class="d-flex">
+                                <a href="#"
+                                    class="text-primary d-flex align-items-center justify-content-center me-3"><span
+                                        class="rounded-circle btn-sm-square border"><i
+                                            class="fas fa-random"></i></i></a>
+                                <a href="#"
+                                    class="text-primary d-flex align-items-center justify-content-center me-0"><span
+                                        class="rounded-circle btn-sm-square border"><i class="fas fa-heart"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-6 col-xl-4 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="products-mini-item border">
+                        <div class="row g-0">
+                            <div class="col-5">
+                                <div class="products-mini-img border-end h-100">
+                                    <img src="img/product-11.png" class="img-fluid w-100 h-100" alt="Image">
+                                    <div class="products-mini-icon rounded-circle bg-primary">
+                                        <a href="#"><i class="fa fa-eye fa-1x text-white"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-7">
+                                <div class="products-mini-content p-3">
+                                    <a href="#" class="d-block mb-2">Bluetooth Kulaklık</a>
+                                    <a href="#" class="d-block h4">Beyaz 2.nesil Ios Android Uyumlu Kablosuz Bluetooth Kulaklık Karışık Renk Kılıf Hediyeli Plus <br> </a>
+                                    <del class="me-2 fs-5">1.000TL</del>
+                                    <span class="text-primary fs-5">500TL</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="products-mini-add border p-3">
+                            <a href="#" class="btn btn-primary border-secondary rounded-pill py-2 px-4"><i
+                                    class="fas fa-shopping-cart me-2"></i> Sepete Ekle</a>
+                            <div class="d-flex">
+                                <a href="#"
+                                    class="text-primary d-flex align-items-center justify-content-center me-3"><span
+                                        class="rounded-circle btn-sm-square border"><i
+                                            class="fas fa-random"></i></i></a>
+                                <a href="#"
+                                    class="text-primary d-flex align-items-center justify-content-center me-0"><span
+                                        class="rounded-circle btn-sm-square border"><i class="fas fa-heart"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Bestseller Products End -->
+
+
+    <!-- Footer Start -->
+    <div class="container-fluid footer py-5 wow fadeIn" data-wow-delay="0.2s">
+        <div class="container py-5">
+            <div class="row g-4 rounded mb-5" style="background: rgba(255, 255, 255, .03);">
+                <div class="col-md-6 col-lg-6 col-xl-3">
+                    <div class="rounded p-4">
+                        <div class="rounded-circle bg-secondary d-flex align-items-center justify-content-center mb-4"
+                            style="width: 70px; height: 70px;">
+                            <i class="fas fa-map-marker-alt fa-2x text-primary"></i>
+                        </div>
+                        <div>
+                            <h4 class="text-white">Adres</h4>
+                            <p class="mb-2">Ömerağa, Fethiye Cd., 41100 İzmit/Kocaeli </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-6 col-xl-3">
+                    <div class="rounded p-4">
+                        <div class="rounded-circle bg-secondary d-flex align-items-center justify-content-center mb-4"
+                            style="width: 70px; height: 70px;">
+                            <i class="fas fa-envelope fa-2x text-primary"></i>
+                        </div>
+                        <div>
+                            <h4 class="text-white">Mail adresi</h4>
+                            <p class="mb-2">Setoshop@hotmail.com</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-6 col-xl-3">
+                    <div class="rounded p-4">
+                        <div class="rounded-circle bg-secondary d-flex align-items-center justify-content-center mb-4"
+                            style="width: 70px; height: 70px;">
+                            <i class="fa fa-phone-alt fa-2x text-primary"></i>
+                        </div>
+                        <div>
+                            <h4 class="text-white">Telefon</h4>
+                            <p class="mb-2">0533 153 05 41</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-6 col-xl-3">
+                    <div class="rounded p-4">
+                        <div class="rounded-circle bg-secondary d-flex align-items-center justify-content-center mb-4"
+                            style="width: 70px; height: 70px;">
+                            <i class="fab fa-google-play fa-2x text-primary"></i>
+                        </div>
+                        <div>
+                            <h4 class="text-white">Setoshop Playstore</h4>
+                            <p class="mb-2">5 Yıldız Veren Herkese Hediye Çeki</p> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row g-5">
+                <div class="col-md-6 col-lg-6 col-xl-3">
+                    <div class="footer-item d-flex flex-column">
+                        <div class="footer-item">
+                            <h4 class="text-primary mb-4"></h4>
+                            <p class="mb-3"></p>
+                            <div class="position-relative mx-auto rounded-pill">
+                                <input class="form-control rounded-pill w-100 py-3 ps-4 pe-5" type="text"
+                                    placeholder="E postanızı giriniz">
+                                <button type="button"
+                                    class="btn btn-primary rounded-pill position-absolute top-0 end-0 py-2 mt-2 me-2">Kayıt ol</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-6 col-xl-3">
+                    <div class="footer-item d-flex flex-column">
+                        <h4 class="text-primary mb-4">Servislerimiz</h4>
+                        <a href="#" class=""><i class="fas fa-angle-right me-2"></i> Bize ulaşın</a>
+                        <a href="#" class=""><i class="fas fa-angle-right me-2"></i> Returns</a>
+                        <a href="#" class=""><i class="fas fa-angle-right me-2"></i> Sipariş geçmişi</a>
+                        <a href="#" class=""><i class="fas fa-angle-right me-2"></i> Dükkan  Konumu</a>
+                        <a href="#" class=""><i class="fas fa-angle-right me-2"></i> Referanslar</a>
+                        <a href="#" class=""><i class="fas fa-angle-right me-2"></i> Hesabım</a>
+                        
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-6 col-xl-3">
+                    <div class="footer-item d-flex flex-column">
+                        <h4 class="text-primary mb-4">Bilgiler</h4>
+                        <a href="hakkimizda.html" class=""><i class="fas fa-angle-right me-2"></i> Hakkımızda</a>
+                        <a href="#" class=""><i class="fas fa-angle-right me-2"></i> Teslimat Bilgileri</a>
+                        <a href="#" class=""><i class="fas fa-angle-right me-2"></i> Gizlilik Sözleşmesi</a>
+                        <a href="#" class=""><i class="fas fa-angle-right me-2"></i> Şartlar ve Koşullar</a>
+                        <a href="#" class=""><i class="fas fa-angle-right me-2"></i> Garanti</a>
+                        <a href="#" class=""><i class="fas fa-angle-right me-2"></i> Sıkça Sorulan Sorular</a>
+                        <a href="#" class=""><i class="fas fa-angle-right me-2"></i> Yetkili Giriş</a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-6 col-xl-3">
+                    <div class="footer-item d-flex flex-column">
+                        <h4 class="text-primary mb-4">Ekstra</h4>
+                        <a href="#" class=""><i class="fas fa-angle-right me-2"></i> Markalar</a>
+                        <a href="#" class=""><i class="fas fa-angle-right me-2"></i> Hediye Kuponları</a>
+                        <a href="#" class=""><i class="fas fa-angle-right me-2"></i> Ortaklar</a>
+                        <a href="#" class=""><i class="fas fa-angle-right me-2"></i> İstek Listesi</a>
+                        <a href="#" class=""><i class="fas fa-angle-right me-2"></i> Sipariş Geçmişi</a>
+                        <a href="#" class=""><i class="fas fa-angle-right me-2"></i> Siparişinizi Takip Edin</a>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+
+    <!-- Copyright Start -->
+    <div class="container-fluid copyright py-4">
+        <div class="container">
+            <div class="row g-4 align-items-center">
+                <div class="col-md-6 text-center text-md-start mb-md-0">
+                    <span class="text-white"><a href="#" class="border-bottom text-white"><i
+                                class="fas fa-copyright text-light me-2"></i>Seto Shop</a>, Tüm Hakları Saklıdır.</span>
+                </div>
+                <div class="col-md-6 text-center text-md-end text-white">
+
+                    <!--/*** This template is free as long as you keep the below author’s credit link/attribution link/backlink. ***/-->
+                    <!--/*** If you'd like to use the template without the below author’s credit link/attribution link/backlink, ***/-->
+                    <!--/*** you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". ***/-->
+                     <a class="border-bottom text-white" href="https://htmlcodex.com"></a>.
+                     <a class="border-bottom text-white" href="https://themewagon.com"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Copyright End -->
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-primary btn-lg-square back-to-top"><i class="fa fa-arrow-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>

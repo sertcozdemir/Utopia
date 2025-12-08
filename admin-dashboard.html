@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>Admin Dashboard — Mock</title>
+  <link href="css/bootstrap.min.css" rel="stylesheet"/>
+  <style>
+    body{padding:20px;background:#f5f7fb}
+    .card{border-radius:10px}
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="d-flex justify-content-between align-items-center mb-4">
+      <h3>Admin Paneli (Mock)</h3>
+      <a href="index.html" class="btn btn-outline-secondary">Ön Sayfaya Dön</a>
+    </div>
+
+    <div class="row g-3">
+      <!-- Ürün Ekle -->
+      <div class="col-md-6">
+        <div class="card p-3">
+          <h5>Ürün Ekle</h5>
+          <form id="productForm">
+            <div class="mb-2"><input id="p_title" class="form-control" placeholder="Ürün adı" required></div>
+            <div class="mb-2"><input id="p_price" class="form-control" placeholder="Fiyat (₺)" required></div>
+            <div class="mb-2">
+              <select id="p_category" class="form-select">
+                <option value="Laptop">Laptop</option>
+                <option value="Telefon">Telefon</option>
+                <option value="Aksesuar">Kulaklık&Kamera</option>
+              </select>
+            </div>
+            <div class="mb-2"><input id="p_img" class="form-control" placeholder="Görsel URL (opsiyonel)"></div>
+            <button class="btn btn-success" type="submit">Kaydet</button>
+          </form>
+        </div>
+      </div>
+
+      <!-- Duyuru Ekle -->
+      <div class="col-md-6">
+        <div class="card p-3">
+          <h5>Duyuru / Kampanya Ekle</h5>
+          <form id="announceForm">
+            <div class="mb-2"><input id="a_title" class="form-control" placeholder="Başlık" required></div>
+            <div class="mb-2"><textarea id="a_text" class="form-control" rows="3" placeholder="İçerik"></textarea></div>
+            <div class="mb-2"><input id="a_file" class="form-control" placeholder="Dosya URL (PDF/Word opsiyonel)"></div>
+            <button class="btn btn-primary" type="submit">Duyuru Ekle</button>
+          </form>
+        </div>
+      </div>
+
+      <!-- Mevcut İçerikler -->
+      <div class="col-12">
+        <div class="card p-3">
+          <h5>Mevcut Ürünler</h5>
+          <div id="productsList" class="row g-2 mt-2"></div>
+          <hr>
+          <h5>Mevcut Duyurular</h5>
+          <div id="announcesList" class="list-group mt-2"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="site-scripts.js"></script>
+</body>
+</html>
