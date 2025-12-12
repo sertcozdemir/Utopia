@@ -1,9 +1,71 @@
-  =>  Template Name    : Electro - Electronics Website Template
+# Web Tasarım Projesi
 
-  =>  Template Link    : https://htmlcodex.com/electronics-website-template
+Bu proje, web tasarım dersi kapsamında geliştirilmiş, **statik ve responsive** yapıya sahip bir web sitesi çalışmasıdır.  
+Proje; modern arayüz bileşenleri, çok sayfalı yapı ve temel kullanıcı etkileşimlerini içerecek şekilde tasarlanmıştır.
 
-  =>  Template License : https://htmlcodex.com/license (or read the LICENSE.txt file)
+## Projenin Amacı
+- HTML, CSS ve JavaScript kullanarak çok sayfalı bir web sitesi geliştirmek  
+- Responsive tasarım prensiplerini uygulamak  
+- Hazır bir template’i düzenleyip özelleştirerek gerçek bir proje yapısına dönüştürmek  
 
-  =>  Template Author  : HTML Codex
+## Kullanılan Teknolojiler
+- HTML5  
+- CSS3  
+- Bootstrap 5  
+- JavaScript (Vanilla JS)  
 
-  =>  Author Website   : https://htmlcodex.com
+## Proje Özellikleri
+- Responsive (mobil, tablet, masaüstü uyumlu) tasarım  
+- Ana sayfa, ürün listeleme ve detay sayfaları  
+- Sepet ve ödeme sayfaları  
+- En çok satanlar ve iletişim sayfaları  
+- Admin giriş ve admin panel sayfaları (arayüz)  
+- Hata yönetimi için 404 sayfası  
+
+## Sayfa Yapısı
+- `index.html` – Ana sayfa  
+- `shop.html` – Ürün listeleme sayfası  
+- `single.html` – Ürün detay sayfası  
+- `cart.html` – Sepet sayfası  
+- `cheackout.html` – Ödeme sayfası  
+- `bestseller.html` – En çok satanlar  
+- `contact.html` – İletişim  
+- `404.html` – Hata sayfası  
+- `admin-login.html` – Admin giriş sayfası  
+- `admin-dashboard.html` – Admin panel arayüzü  
+
+## Çalışma Prensibi
+Proje **statik** olarak çalışmaktadır.  
+Sayfalar arası geçişler HTML üzerinden sağlanmakta, görsel ve etkileşimsel yapı Bootstrap ve JavaScript ile desteklenmektedir.
+
+> Admin panel ve ürün yönetimi tarafı, backend entegrasyonu olmadan arayüz (mock) olarak tasarlanmıştır.
+
+## Kurulum ve Çalıştırma
+1. Proje klasörü bilgisayara indirilir  
+2. `index.html` dosyası tarayıcıda açılır  
+3. Daha sağlıklı kullanım için Live Server önerilir  
+
+## Klasör Yapısı
+/css
+/js
+/img
+/lib
+index.html
+shop.html
+single.html
+cart.html
+cheackout.html
+bestseller.html
+contact.html
+404.html
+admin-login.html
+admin-dashboard.html
+README.md
+## Geliştirilebilir Alanlar
+- Backend (PHP / Node.js) entegrasyonu  
+- Veritabanı bağlantısı  
+- Gerçek admin yetkilendirme sistemi  
+- Dinamik ürün ve sepet yönetimi  
+
+## Lisans
+Bu proje eğitim amaçlı hazırlanmıştır.
