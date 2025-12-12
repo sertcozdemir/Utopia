@@ -1,27 +1,72 @@
-# Salone - Free Bootstrap 5 Business Template 
+# Web Tasarım Projesi
 
-- [Demo](https://themewagon.github.io/Electro-Bootstrap/)
+Bu proje, web tasarım dersi kapsamında geliştirilmiş, **statik ve responsive** yapıya sahip bir web sitesi çalışmasıdır.  
+Proje; modern arayüz bileşenleri, çok sayfalı yapı ve temel kullanıcı etkileşimlerini içerecek şekilde tasarlanmıştır.
 
-#### Download
+## Projenin Amacı
+- HTML, CSS ve JavaScript kullanarak çok sayfalı bir web sitesi geliştirmek  
+- Responsive tasarım prensiplerini uygulamak  
+- Hazır bir template’i düzenleyip özelleştirerek gerçek bir proje yapısına dönüştürmek  
 
-- [Download from ThemeWagon](https://themewagon.com/themes/electro-bootstrap/)
+## Kullanılan Teknolojiler
+- HTML5  
+- CSS3  
+- Bootstrap 5  
+- JavaScript (Vanilla JS)  
 
-## Getting Started
+## Proje Özellikleri
+- Responsive (mobil, tablet, masaüstü uyumlu) tasarım  
+- Ana sayfa, ürün listeleme ve detay sayfaları  
+- Sepet ve ödeme sayfaları  
+- En çok satanlar ve iletişim sayfaları  
+- Admin giriş ve admin panel sayfaları (arayüz)  
+- Hata yönetimi için 404 sayfası  
 
-Clone Repository
+## Sayfa Yapısı
+- `index.html` – Ana sayfa  
+- `shop.html` – Ürün listeleme sayfası  
+- `single.html` – Ürün detay sayfası  
+- `cart.html` – Sepet sayfası  
+- `cheackout.html` – Ödeme sayfası  
+- `bestseller.html` – En çok satanlar  
+- `contact.html` – İletişim  
+- `404.html` – Hata sayfası  
+- `admin-login.html` – Admin giriş sayfası  
+- `admin-dashboard.html` – Admin panel arayüzü  
 
-```
-https://github.com/themewagon/Electro-Bootstrap.git
-```
+## Çalışma Prensibi
+Proje **statik** olarak çalışmaktadır.  
+Sayfalar arası geçişler HTML üzerinden sağlanmakta, görsel ve etkileşimsel yapı Bootstrap ve JavaScript ile desteklenmektedir.
 
-## Author
+> Admin panel ve ürün yönetimi tarafı, backend entegrasyonu olmadan arayüz (mock) olarak tasarlanmıştır.
 
-```
-Salone is developed by Team HTML Codex.
-```
+## Kurulum ve Çalıştırma
+1. Proje klasörü bilgisayara indirilir  
+2. `index.html` dosyası tarayıcıda açılır  
+3. Daha sağlıklı kullanım için Live Server önerilir  
 
-## License
+## Klasör Yapısı
+/css
+/js
+/img
+/lib
+index.html
+shop.html
+single.html
+cart.html
+cheackout.html
+bestseller.html
+contact.html
+404.html
+admin-login.html
+admin-dashboard.html
+README.md
+## Geliştirilebilir Alanlar
+- Backend (PHP / Node.js) entegrasyonu  
+- Veritabanı bağlantısı  
+- Gerçek admin yetkilendirme sistemi  
+- Dinamik ürün ve sepet yönetimi  
 
-- Design and Code is Copyright &copy; [HTML Codex](https://htmlcodex.com/).
-- Licensed cover under [MIT]
-- Distributed by [ThemeWagon](https://themewagon.com)
+## Lisans
+Bu proje eğitim amaçlı hazırlanmıştır.
+
